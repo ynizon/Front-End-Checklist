@@ -8,7 +8,7 @@
 
 La **Checklist Front-End FRENCH / francaise** est une liste exhaustive de tous les élements dont vous avez besoin avant de lancer votre site HTML en production.
 
-Celle-ci est basée sur des années d'experience des développeurs Front-End, en y ajoutant divers checklists de projets open-source.
+Celle-ci est basée sur des années d'experience de développeurs Front-End, en y ajoutant divers checklists de projets open-source.
 
 *Si vous l'aimez , merci de la partager en votant sur Product Hunt*
 [![](http://res.cloudinary.com/djnyaloac/image/upload/v1508896898/upvote-producthunt_vzys4c.jpg)](https://www.producthunt.com/posts/front-end-checklist)
