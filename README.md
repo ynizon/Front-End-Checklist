@@ -75,14 +75,14 @@ Plusieurs resources possèdent un emoticon pour vous aider à comprendre quel ty
 
 > * 📖 [Specifié le mode d'héritage des documents (Internet Explorer)](https://msdn.microsoft.com/en-us/library/jj676915(v=vs.85).aspx)
 
-* [ ] **Viewport:** ![High][high_img] Le viewport est correctement déclaré.
+* [ ] **Viewport:** ![Haute][high_img] Le viewport est correctement déclaré.
 
 ```html
 <!-- Viewport for responsive web design -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 ```
 
-* [ ] **Title:** ![High][high_img] A title is used on all pages (SEO: Google calculate the pixel width of the characters used in the title, cut off between 472 and 482 pixels. Average character limit would be around 55-characters).
+* [ ] **Title:** ![Haute][high_img] Un titre est utilisé sur chaque page (SEO: Google calcule la largeur des pixels de chaque caractères utilisés dans le titre, et coupe entre 472 et 482 pixels. La limite moyenne de caractères se situe autour des 55).
 
 ```html
 <!-- Document Title -->
@@ -92,7 +92,7 @@ Plusieurs resources possèdent un emoticon pour vous aider à comprendre quel ty
 > * 📖 [Title - HTML - MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title)
 > * 🛠 [SERP Snippet Generator](https://www.sistrix.com/serp-snippet-generator/)
 
-* [ ] **Description:** ![High][high_img] A meta description is provided, it is unique and doesn't possess more than 150 characters.
+* [ ] **Description:** ![Haute][high_img] Une meta description est fourni, elle est unique et ne contient pas plus de 150 caractères.
 
 ```html
 <!-- Meta Description -->
@@ -101,7 +101,7 @@ Plusieurs resources possèdent un emoticon pour vous aider à comprendre quel ty
 
 > * 📖[Meta Description - HTML - MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#Adding_an_author_and_description)
 
-* [ ] **Favicons:** ![Medium][medium_img] Each favicon has been created and displays correctly. If you have only a `favicon.ico`, put it at the root of your site. Normally you won't need to use any markup. However, it's still good practice to link to it using the example below. Today, **PNG format is recommended** over `.ico` format (dimensions: 32x32px).
+* [ ] **Favicons:** ![Moyen][medium_img] Chaque favicon a été créé et s'affiche correctement. Si vous avez un `favicon.ico`, posez le à la racine de votre site. Normallement vous n'avez pas besoin d'utiliser de balise. Cependant, cela reste une bonne pratique de le relier comme dans l'exemple ci-dessous. Aujourd'hui, **Le PNG est recommendé** en remplacement du format `.ico` (dimensions: 32x32px).
 
 ```html
 <!-- Standard favicon -->
@@ -116,23 +116,23 @@ Plusieurs resources possèdent un emoticon pour vous aider à comprendre quel ty
 > * 📖 [Favicons, Touch Icons, Tile Icons, etc. Which Do You Need? - CSS Tricks](https://css-tricks.com/favicon-quiz/)
 > * 📖 [PNG favicons - caniuse](https://caniuse.com/#feat=link-icon-png)
 
-* [ ] **Apple Touch Icon:** ![Low][low_img] Apple touch favicon apple-mobile-web-app-capable are present. *(Create your Apple Icon file with at least 200x200px dimension to support all dimensions that you may need)*
+* [ ] **Apple Touch Icon:** ![Bas][low_img] Les favicons Apple touch apple-mobile-web-app-capable sont présents. *(Créer vos icones Apple avec au pire des dimensions de 200x200px pour supporter toutes les dimensions dont vous aurez besoin)*
 
 ```html
 <!-- Apple Touch Icon -->
 <link rel="apple-touch-icon" href="/custom-icon.png">
 ```
 
-> * 📖 [Configuring Web Applications](https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html)
+> * 📖 [Configurer des Web Applications](https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html)
 
-- [ ] **Windows Tiles:**![Low][low_img] Windows tiles are present and linked.
+- [ ] **Windows Tiles:**![Bas][low_img] Les tuiles Windows sont présentes et liées.
 
 ```html
 <!-- Microsoft Tiles -->
 <meta name="msapplication-config" content="browserconfig.xml" />
 ```
 
-Minimum required xml markup for the browserconfig.xml file is as follows:
+Le balisage xml minimum requis pour le balisage du fichier browserconfig.xml doit être:
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -150,7 +150,7 @@ Minimum required xml markup for the browserconfig.xml file is as follows:
 
 > * 📖 [Browser configuration schema reference](https://msdn.microsoft.com/en-us/library/dn320426(v=vs.85).aspx)
 
-* [ ] **Canonical:** ![Medium][medium_img] Use `rel="canonical"` to avoid duplicate content.
+* [ ] **Canonical:** ![Moyen][medium_img] Utiliser `rel="canonical"` pour éviter le contenu dupliqué.
 
 ```html
 <!-- Helps prevent duplicate content issues -->
@@ -162,13 +162,13 @@ Minimum required xml markup for the browserconfig.xml file is as follows:
 
 ### HTML tags
 
-* [ ] **Language attribute:** ![High][high_img] The `lang` attribute of your website is specified and related to the language of the current page.
+* [ ] **Language attribute:** ![Haute][high_img] L'attribut `lang` de votre site est spécifié et indique le langage de la page courrante.
 
 ```html
 <html lang="en">
 ```
 
-* [ ] **Direction attribute:** ![Medium][medium_img] The direction of lecture is specified on the html tag (It can be used on another HTML tag).
+* [ ] **Direction attribute:** ![Moyen][medium_img] Le sens de lecture est specifié dans le tag html (Il peut être indiqué dans un autre tag HTML).
 
 ```html
 <html dir="rtl">
@@ -176,30 +176,30 @@ Minimum required xml markup for the browserconfig.xml file is as follows:
 
 > * 📖 [dir - HTML - MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/dir)
 
-* [ ] **Alternate language:** ![Low][low_img] The language tag of your website is specified and related to the language of the current page.
+* [ ] **Alternate language:** ![Low][low_img] Le tag language de votre site est specifié et est en relation avec le language de la page courrante.
 
 ```html
 <link rel="alternate" href="https://es.example.com/" hreflang="es">
 ```
 
-* [ ] **Conditional comments:** ![Low][low_img] Conditional comments are present for IE if needed.
+* [ ] **Conditional comments:** ![Low][low_img] Les commentaires conditionnels sont présents pour IE si besoin.
 
 > * 📖 [About conditional comments (Internet Explorer) - MSDN - Microsoft](https://msdn.microsoft.com/en-us/library/ms537512(v=vs.85).aspx)
 
-* [ ] **RSS feed:** ![Low][low_img] If your project is a blog or has articles, an RSS link was provided.
+* [ ] **RSS feed:** ![Bas][low_img] Si votre projet est un blog ou a des articles, un flux RSS est fourni.
 
-* [ ] **Inline critical CSS:** ![Medium][medium_img] CSS which styles content that is immediately visible during pageload ("above the fold content") is called "critical CSS". It is embedded before your principal CSS call and between `<style></style>` in a single line (minified).
+* [ ] **Inline critical CSS:** ![Moyen][medium_img] CSS avec le style des contenus qui doivent être immédiatement visibles pendant le chargement ("au dessus de la ligne de flottaison") sont appelés "CSS critiques". Ils sont inclus avant le CSS principal et entre les balises `<style></style>` dans une seule ligne (en étant minifié).
 > * 🛠 [Critical by Addy Osmani on GitHub](https://github.com/addyosmani/critical) automates this
 
-* [ ] **CSS order:** ![High][high_img] All CSS files are loaded before any JavaScript files in the `<head>`. (Except the case where sometimes JS files are loaded asynchronously on top of your page).
+* [ ] **CSS order:** ![Haute][high_img] Tous les fichiers CSS sont chargés avant n'importe quel fichier JavaScript dans la section `<head>`. (Parfois certains fichiers JS sont chargés en asynchrones en haut de page, et font donc exception à la règle).
 
 ### Social meta
 
-***Facebook OG*** and ***Twitter Cards*** are, for any website, highly recommended. The other social media tags can be considered if you target a particular presence on those and want to ensure the display.
+***Facebook OG*** et ***Twitter Cards*** sont, pour tous les sites, hautement recommendés. Les autres tag de média sociaux peuvent être utiles si vous ciblez une audience particulère et que vous voulez vous assurer une affichage particulier.
 
-* [ ] **Facebook Open Graph:** ![Low][low_img] All Facebook Open Graph (OG) are tested and no one is missing or with a false information. Images need to be at least 600 x 315 pixels, 1200 x 630 pixels recommended.
+* [ ] **Facebook Open Graph:** ![Low][low_img] Tous les Open Graph Facebook (OG) sont testés et aucun ne manque ou contient de fausses informations. Les images doivent être au minimum de 600 x 315 pixels, mais 1200 x 630 pixels est recommendé.
 
-> **Notes:** Using use `og:image:width` and `og:image:height` will specify the image dimensions to the crawler so that it can render the image immediately without having to asynchronously download and process it.
+> **Notes:** L'utilisation des balises `og:image:width` et `og:image:height` qui spécifient les dimensions des images au crawler permettent le rendu des images immédiatement sans avoir besoin de les redimensionner avec un système asynchrone.
 
 ```html
 <meta property="og:type" content="website">
@@ -216,7 +216,7 @@ Minimum required xml markup for the browserconfig.xml file is as follows:
 
 > * 📖 [A Guide to Sharing for Webmasters](https://developers.facebook.com/docs/sharing/webmasters/)
 > * 📖 [Best Practices - Sharing](https://developers.facebook.com/docs/sharing/best-practices/)
-> * 🛠 Test your page with the [Facebook OG testing](https://developers.facebook.com/tools/debug/)
+> * 🛠 TTester votre page avec [Facebook OG testing](https://developers.facebook.com/tools/debug/)
 
 * [ ] **Twitter Card:** ![Low][low_img]
 
@@ -233,43 +233,43 @@ Minimum required xml markup for the browserconfig.xml file is as follows:
 > * 📖 [Getting started with cards — Twitter Developers](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started)
 > * 🛠 Test your page with the [Twitter card validator](https://cards-dev.twitter.com/validator)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ Retour en haut](#table-of-contents)**
 
 ---
 
 ## HTML
 
-### Best practices
+### Bonnes pratiques
 
-* [ ] **HTML5 Semantic Elements:** ![High][high_img] HTML5 Semantic Elements are used appropriately (header, section, footer, main...).
+* [ ] **HTML5 Semantic Elements:** ![Haut][high_img] Les élements sémantiques HTML5 ont une utilisation spécifique (header, section, footer, main...).
 
 > * 📖 [HTML Reference](http://htmlreference.io/)
 
-* [ ] **Error pages:** ![High][high_img] Error 404 page and 5xx exist. Remember that the 5xx error pages need to have their CSS integrated (no external call on the current server).
+* [ ] **Error pages:** ![Haut][high_img] Les pages d'erreurs 404 et 5xx existent. Rappelez vous que les pages d'erreurs 5xx ont besoin de CSS intégrés (pas d'appel externe au serveur courrant).
 
-* [ ] **Noopener:** ![Medium][medium_img] In case you are using external links with `target="_blank"`, your link should have a `rel="noopener"` attribute to prevent tab nabbing. If you need to support older versions of Firefox, use `rel="noopener noreferrer"`.
+* [ ] **Noopener:** ![Moyen][medium_img] Dans le cas ou vous utilisez des liens externes avec `target="_blank"`, votre lien devrait avoir l'attribut `rel="noopener"` pour prévenir du tab nabbing (piratage par onglet). Si vous devez supporter les anciennes versions de Firefox, utiliser alors `rel="noopener noreferrer"`.
 
-> * 📖 [About rel=noopener](https://mathiasbynens.github.io/rel-noopener/)
+> * 📖 [A propos de rel=noopener](https://mathiasbynens.github.io/rel-noopener/)
 
-* [ ] **Clean up comments:** ![Low][low_img] Unnecessary code needs to be removed before sending the page to production.
+* [ ] **Nettoyage de commentaires:** ![Bas][low_img] Le code non nécessaire doit être supprimé avant l'envoi en production.
 
 ### HTML testing
 
-* [ ] **W3C compliant:** ![High][high_img] All pages need to be tested with the W3C validator to identify possible issues in the HTML code.
+* [ ] **W3C compliant:** ![Haut][high_img] Toutes les pages doivent avoir passé la validation W3C pour identifier de possibles problèmes dans le code HTML.
 
 > * 🛠 [W3C validator](https://validator.w3.org/)
 
-* [ ] **HTML Lint:** ![High][high_img] I use tools to help me analyze any issues I could have on my HTML code.
+* [ ] **HTML Lint:** ![Haut][high_img] J'utiliser ces outils pour m'aider à analyser des problèmes que je pourrais avoir dans le code  HTML.
 
 > * 🛠 [Dirty markup](https://dirtymarkup.com/)
 
 > * 🛠 [Sonar a linting tool for the web](https://sonarwhal.com/)
 
-* [ ] **Link checker:** ![High][high_img] There are no broken links in my page, verify that you don't have any 404 error.
+* [ ] **Link checker:** ![Haut][high_img] Vérification qu'il n'y ai pas de liens brisés (pages 404).
 
 > * 🛠 [W3C Link Checker](https://validator.w3.org/checklink)
 
-* [ ] **Adblockers test:** ![Medium][medium_img] Your website shows your content correctly with adblockers enabled (You can provide a message encouraging people to disable their adblocker).
+* [ ] **Adblockers test:** ![Moyen][medium_img] Votre site doit affiché un contenu correct malgré la présence d'adblocker (Vous pouvez fournir un message pour encourager les gens à les désactiver).
 
 
 
