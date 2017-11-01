@@ -48,7 +48,7 @@ Plusieurs resources possèdent un emoticon pour vous aider à comprendre quel ty
 
 ### Meta tag
 
-* [ ] **Doctype:** ![Haute][high_img] Le Doctype est HTML5 et doit être en haut de toutes vos pages HTML.
+* [ ] **Doctype:** ![Haute][high_img] Le Doctype en HTML5 doit être en haut de toutes vos pages HTML.
 
 ```html
 <!-- Doctype HTML5 -->
@@ -465,11 +465,11 @@ Le balisage xml minimum requis pour le balisage du fichier browserconfig.xml doi
 > * 📖 [XSS (Cross Site Scripting) Prevention Cheat Sheet  - OWASP](https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet)
 > * 📖 [DOM based XSS Prevention Cheat Sheet  - OWASP](https://www.owasp.org/index.php/DOM_based_XSS_Prevention_Cheat_Sheet)
 
-* [ ] **Content Type Options** ![Medium][medium_img] Prevents Google Chrome and Internet Explorer from trying to mime-sniff the content-type of a response away from the one being declared by the server.
+* [ ] **Content Type Options** ![Moyen][medium_img] Prevents Google Chrome and Internet Explorer from trying to mime-sniff the content-type of a response away from the one being declared by the server.
 
 > * 📖 [X-Content-Type-Options - Scott Helme](https://scotthelme.co.uk/hardening-your-http-response-headers/#x-content-type-options)
 
-* [ ] **X-Frame-Options (XFO)** ![Medium][medium_img] Protects your visitors against clickjacking attacks.
+* [ ] **X-Frame-Options (XFO)** ![Moyen][medium_img] Proteger vos visiteurs contre les attaques par clickjacking.
 
 > * 📖 [X-Frame-Options - Scott Helme](https://scotthelme.co.uk/hardening-your-http-response-headers/#x-frame-options)
 > * 📖 [RFC7034 - HTTP Header Field X-Frame-Options](https://tools.ietf.org/html/rfc7034)
