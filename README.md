@@ -668,17 +668,17 @@ If you want to show you are following the rules of the Front-End Checklist, put 
 
 The **Front-End Checklist** repository consists of two branches:
 
-#### 1. `master`
+#### 1. `maitre`
 
-This branch consists of the `README.md` file that is automatically reflected on the [Front-End Checklist](http://frontendchecklist.com/) website.
+La branche consiste dans ce fichier `README.md` automatiquement créé depuis le site [Front-End Checklist](http://frontendchecklist.com/) .
 
-#### 2. `develop`
+#### 2. `developpeurs`
 
-This branch will be used to make some significant changes to the structure, content if needed. It is preferable to use the master branch to fix small errors or add a new item.
+Cette branche sera utilisé pour faire des changements significatifs à la structure si besoin. Il est préférable d'utiliser la branchemaitre pour corriger des petites erreurs ou pour ajouter un nouvel élément.
 
-### Contributors
+### Contributeurs
 
-Check out all the super awesome [contributors](https://github.com/thedaviddias/frontendchecklist/graphs/contributors).
+[contributeurs](https://github.com/thedaviddias/frontendchecklist/graphs/contributors).
 
 ## Support
 
@@ -688,15 +688,16 @@ If you have any question or suggestion, don't hesitate to use Gitter or Twitter:
 * [Facebook](https://www.facebook.com/frontendchecklist/)
 * [Twitter](https://twitter.com/thedaviddias)
 
-## Authors
+## Auteurs
 
 **[David Dias](https://github.com/thedaviddias/Front-End-Checklist)**
+**Traduction FR: [Yohann Nizon](https://www.gameandme.fr)**
 
 ## License
 
 [![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ Retour en haut](#table-of-contents)**
 
 [low_img]: http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-low.png
 [medium_img]: http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png
