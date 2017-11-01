@@ -8,9 +8,9 @@
 
 La **Checklist Front-End FRENCH / francaise** est une liste exhaustive de tous les élements dont vous avez besoin avant de lancer votre site HTML en production.
 
-C'est basé sur des années d'experience des développeurs Front-End, en y ajoutant divers checklists de projets open-source.
+Celle-ci est basée sur des années d'experience des développeurs Front-End, en y ajoutant divers checklists de projets open-source.
 
-*Partager cette checklist en votant sur Product Hunt*
+*Si vous l'aimez , merci de la partager en votant sur Product Hunt*
 [![](http://res.cloudinary.com/djnyaloac/image/upload/v1508896898/upvote-producthunt_vzys4c.jpg)](https://www.producthunt.com/posts/front-end-checklist)
 
 ## Table of Contents
@@ -379,48 +379,48 @@ Le balisage xml minimum requis pour le balisage du fichier browserconfig.xml doi
 
 ### Best practices
 
-* [ ] **Optimization:** ![Haut][high_img] All images are optimized to be rendered in the browser. WebP format could be used for critical pages (like Homepage).
+* [ ] **Optimization:** ![Haut][high_img]Toutes les images sont optimisées pour un rendu sur navigateur. Le format WebP peut être utilisée pour des pages critiques (comme la page d'accueil).
 
 > * 🛠 [Imagemin](https://github.com/imagemin/imagemin)
 > * 🛠 Use [ImageOptim](https://imageoptim.com/) to optimise your images for free.
 > * 🛠 Use [Kraken.io](https://kraken.io/web-interface) awesome alternative for both png and jpg optimization. Up to 1mb per files on free plan.
 
-* [ ] **Picture/Srcset:** ![Moyen][medium_img] You use picture/srcset to provide the most appropriate image for the current viewport of the user.
+* [ ] **Picture/Srcset:** ![Moyen][medium_img] Vous pouvez utiliser des images/srcset pour fournir l'image la plus appropriée à la résolution de l'utilisateur.
 
-> * 📖 [How to Build Responsive Images with srcset](https://www.sitepoint.com/how-to-build-responsive-images-with-srcset/)
+> * 📖 [Comment constuire des images responsives avec srcset](https://www.sitepoint.com/how-to-build-responsive-images-with-srcset/)
 
-* [ ] **Retina:** ![Bas][low_img] You provide layout images 2x or 3x, support retina display.
-* [ ] **Sprite:** ![Moyen][medium_img] Small images are in a sprite file (in the case of icons, they can be in an SVG sprite image).
-* [ ] **Width and Height:** ![Haut][high_img] Set `width` and `height` attributes on `<img>` if the final rendered image size is known (can be omitted for CSS sizing).
-* [ ] **Alternative text:** ![Haut][high_img] All `<img>` have an alternative text which describe the image visually.
+* [ ] **Retina:** ![Bas][low_img] Vous fournissez des layout d'images  2x or 3x, pour l'affichage sur un support retina.
+* [ ] **Sprite:** ![Moyen][medium_img] Les petites images sont dans un seul fichier sprite (dans le cas d'icones, elles peuvent être dans un sprite d'image SVG).
+* [ ] **Width and Height:** ![Haut][high_img] Ajouter les attributs `width` et `height` sur la balise `<img>` dans le rendu final si la taille est connue (le css de dimensionnement peut alors être omis).
+* [ ] **Text alternatif:** ![Haut][high_img] Toute les balises `<img>` ont un texte alternatif qui l'a décrit visuellement.
 
 > * 📖 [Alt-texts: The Ultimate Guide](https://axesslab.com/alt-texts/)
 
-* [ ] **Lazy loading:** ![Medium][medium_img] Images are lazyloaded (A noscript fallback is always provided).
+* [ ] **Lazy loading:** ![Medium][medium_img] Les images sont chargés au fur et à mesure (Un noscript fallback est toujours fourni).
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ retour en haut](#table-of-contents)**
 
 ---
 
 ## JavaScript
 
-### Best practices
+### Bonnes pratiques
 
-* [ ] **JavaScript Inline:** ![High][high_img] You don't have any JavaScript code inline (mixed with your HTML code).
-* [ ] **Concatenation:** ![High][high_img] JavaScript files are concatenated.
-* [ ] **Minification:** ![High][high_img] JavaScript files are minified (you can add the `.min` suffix).
+* [ ] **JavaScript Inline:** ![Haute][high_img] Vous n'avez aucun code javascript inline (contenu dans votre code HTML).
+* [ ] **Concatenation:** ![Haute][high_img] Les fichiers JavaScript sont concatenatés.
+* [ ] **Minification:** ![Haute][high_img] Les fichiers JavaScript sont minifiés (vous pouvez ajouiter le suffixe `.min`).
 
-> * 📖 [Minify Resources (HTML, CSS, and JavaScript)](https://developers.google.com/speed/docs/insights/MinifyResources)
+> * 📖 [Minification des Ressources (HTML, CSS, and JavaScript)](https://developers.google.com/speed/docs/insights/MinifyResources)
 
 * [ ] **JavaScript security:**
 
 > * 📖 [Guidelines for Developing Secure Applications Utilizing JavaScript](https://www.owasp.org/index.php/DOM_based_XSS_Prevention_Cheat_Sheet#Guidelines_for_Developing_Secure_Applications_Utilizing_JavaScript)
 
-* [ ] **Non-blocking:** ![Medium][medium_img] JavaScript files are loaded asynchronously using `async` or deferred using `defer` attribute.
+* [ ] **Non-blocking:** ![Moyen][medium_img] Les fichiers JavaScript sont chargés en asynchrone avec `async` ou avec l'utilisation de l'attribut `defer`.
 
 > * 📖 [Remove Render-Blocking JavaScript](https://developers.google.com/speed/docs/insights/BlockingJS)
 
-* [ ] **Modernizr:** ![Low][low_img] If you need to target some specific features you can use a custom Modernizr to add classes in your `<html>` tag.
+* [ ] **Modernizr:** ![Bas][low_img] If you need to target some specific features you can use a custom Modernizr to add classes in your `<html>` tag.
 
 > * 🛠 [Customize your Modernizr](https://modernizr.com/download?setclasses)
 
