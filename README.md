@@ -6,11 +6,11 @@
 [![StackShare](https://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/thedaviddias/front-end-checklist)
 [![CC0](https://img.shields.io/badge/license-CC0-green.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-The **Front-End Checklist** is an exhaustive list of all elements you need to have / to test before launching your site / HTML page to production.
+La **Front-End Checklist FRENCH / francaise** est une liste exhaustive de tous les élements dont vous avez besoin avant de lancer un votre site HTML en production.
 
-It is based on Front-End developers' years of experience, with the additions coming from some other open-source checklists.
+C'est basé sur des années d'experience des développeurs Front-End, en y ajoutant divers checklists de projets open-source.
 
-*Help to share the Front-End Checklist by voting and recommending on Product Hunt*
+*Partager cette checklist en votant sur Product Hunt*
 [![](http://res.cloudinary.com/djnyaloac/image/upload/v1508896898/upvote-producthunt_vzys4c.jpg)](https://www.producthunt.com/posts/front-end-checklist)
 
 ## Table of Contents
@@ -26,56 +26,56 @@ It is based on Front-End developers' years of experience, with the additions com
 9. **[Accessibility](#accessibility)**
 10. **[SEO](#seo)**
 
-## How to use?
+## Comment l'utiliser ?
 
-All items in the **Front-End Checklist** are required for the majority of the projects, but some elements can be omitted or are not essential (in the case of an administration web app, you may not need RSS feed for example). We choose to use 3 levels of flexibility:
+Tous les élements de la **Front-End Checklist** sont requis dans la majorité de vos projets, mais certains peuvent être omis ou ne sont pas essentiels (par exemple, dans le cas d'une app d'administration , vous n'avez pas besoin de flux RSS). Nous avons choisi d'utiliser  3 niveaux de flexibilité:
 
-* ![Low][low_img] means that the item is **recommended** but can be omitted in some particular situations.
-* ![Medium][medium_img] means that the item is **highly recommended** and can eventually be omitted in some really particular cases. Some elements, if omitted, can have bad repercussions in terms of performance or SEO.
-* ![High][high_img] means that the item **can't be omitted** by any reason. You may cause a dysfunction in your page or have accessibility or SEO issues. The testing priority needs to be on these elements first.
+* ![Bas][low_img] signifie que l'élement est **recommandé** mais peut être omis dans certaines situations.
+* ![Moyen][medium_img] signifie que l'élement est **hautement recommandé** et peut éventuellement être omis dans certains cas particuliers . Certains élements s'ils sont omis peuvent avoir des mauvais effets secondaires en terme de performance ou de référencement (SEO).
+* ![Haut][high_img] signifie que l'élement **est indispensable**. Vous pouvez provoquer des dysfonctionnements dans votre page, ou avoir des problèmes d'accessibilité, voir de SEO. La priorité des tests doit d'abord s'assurer de ces éléments en premiers.
 
-Some resources possess an emoticon to help you understand which type of content / help you may find on the checklist:
+Plusieurs resources possèdent un emoticon pour vous aider à comprendre quel type de contenu il s'agit :
 
-* 📖: documentation or article
-* 🛠: online tool / testing tool
-* 📹: media or video content
+* 📖: documentation ou article
+* 🛠: outil online  / outil de test
+* 📹: media ou contenu vidéo 
 
 ---
 
 ## Head
 
-> **Notes:** You can find [a list of everything](https://github.com/joshbuchea/HEAD) that could be found in the `<head>` of an HTML document.
+> **Notes:** Vous pouvez trouver [une liste de toute les balises](https://github.com/joshbuchea/HEAD) qui peuvent être trouvés dans la section  `<head>` d'un document HTML.
 
 ### Meta tag
 
-* [ ] **Doctype:** ![High][high_img] The Doctype is HTML5 and is at the top of all your HTML pages.
+* [ ] **Doctype:** ![Haute][high_img] Le Doctype est HTML5 et doit être en haut de toutes vos pages HTML.
 
 ```html
 <!-- Doctype HTML5 -->
 <!doctype html>
 ```
 
-> * 📖 [Determining the character encoding - HTML5 W3C](https://www.w3.org/TR/html5/syntax.html#determining-the-character-encoding)
+> * 📖 [Determiné l'encodage - HTML5 W3C](https://www.w3.org/TR/html5/syntax.html#determining-the-character-encoding)
 
-*The next 3 meta tags (Charset, X-UA Compatible and Viewport) need to come first in the head.*
+*Les prochains 3 meta tags (Charset, X-UA Compatible and Viewport) doivent venir en premier dans le head.*
 
-* [ ] **Charset:** ![High][high_img] The charset declared (UTF-8) is declared correctly.
+* [ ] **Charset:** ![Haute][high_img] Le charset declaré (UTF-8) est correctement declaré.
 
 ```html
 <!-- Set character encoding for the document -->
 <meta charset="utf-8">
 ```
 
-* [ ] **X-UA-Compatible:** ![Medium][medium_img] The X-UA-Compatible meta tag is present.
+* [ ] **X-UA-Compatible:** ![Moyen][medium_img] Le meta tag X-UA-Compatible est présent.
 
 ```html
 <!-- Instruct Internet Explorer to use its latest rendering engine -->
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 ```
 
-> * 📖 [Specifying legacy document modes (Internet Explorer)](https://msdn.microsoft.com/en-us/library/jj676915(v=vs.85).aspx)
+> * 📖 [Specifié le mode d'héritage des documents (Internet Explorer)](https://msdn.microsoft.com/en-us/library/jj676915(v=vs.85).aspx)
 
-* [ ] **Viewport:** ![High][high_img] The viewport is declared correctly.
+* [ ] **Viewport:** ![High][high_img] Le viewport est correctement déclaré.
 
 ```html
 <!-- Viewport for responsive web design -->
