@@ -329,7 +329,7 @@ Le balisage xml minimum requis pour le balisage du fichier browserconfig.xml doi
 
 ### Performance
 
-- [ ] **Concatenation:** ![Haut][high_img] Les fichiers CSS sont concatenés dans un fichier unique. *(Pas pour HTTP/2)*
+- [ ] **Concatenation:** ![Haut][high_img] Les fichiers CSS sont concatenés dans un fichier unique. *(Pas besoin pour HTTP/2)*
 - [ ] **Minification:** ![Haut][high_img] Les fichiers CSS sont minifiés.
 - [ ] **Non-blocking:** ![Moyen][medium_img] Les fichiers CSS ne doivent pas être bloquants pour que le DOM puisse se charger rapidement.
 
@@ -350,49 +350,49 @@ Le balisage xml minimum requis pour le balisage du fichier browserconfig.xml doi
 > * 🛠 [stylelint, a CSS linter](https://stylelint.io/)
 > * 📖 [Sass guidelines](https://sass-guidelin.es/)
 
-* [ ] **Responsive web design:** ![Haut][high_img] All pages were tested at the following breakpoints: 320px, 768px, 1024px (can be more / different according to your analytics).
+* [ ] **Responsive web design:** ![Haut][high_img] Toutes les pages ont étés testées sur les résolutions suivantes: 320px, 768px, 1024px (peut être plus / en fonction de votre analyse).
 
-* [ ] **CSS Validator:** ![Moyen][medium_img] The CSS was tested and pertinent errors were corrected.
+* [ ] **CSS Validator:** ![Moyen][medium_img] Le CSS a été testéet il n'y a aucune erreur.
 
 > * 🛠 [CSS Validator](https://jigsaw.w3.org/css-validator/)
 
-* [ ] **Desktop Browsers:** ![Haut][high_img] All pages were tested on all current desktop browsers (Safari, Firefox, Chrome, Internet Explorer, EDGE...).
-* [ ] **Mobile Browsers:**  ![Haut][high_img] All pages were tested on all current mobile browsers (Native browser, Chrome, Safari...).
-* [ ] **OS:**  ![Haut][high_img] All pages were tested on all current OS (Windows, Android, iOS, Mac...).
+* [ ] **Desktop Browsers:** ![Haut][high_img] Toutes les pages ont étés testées sur différents navigateurs (Safari, Firefox, Chrome, Internet Explorer, EDGE...).
+* [ ] **Mobile Browsers:**  ![Haut][high_img] Toutes les pages ont étés testées sur différents navigateurs mobiles (Native browser, Chrome, Safari...).
+* [ ] **OS:**  ![Haut][high_img] Toutes les pages ont étés testées sur différents OS (Windows, Android, iOS, Mac...).
 
-- [ ] **Pixel perfect:** ![Haut][high_img] Pages are close to pixel perfect. Depending on the quality of the creatives, you may not be 100% accurate, but your page needs to be close to your template.
+- [ ] **Pixel perfect:** ![Haut][high_img] Les pages collent parfaitement au pixel près aux maquettes. Cela dépend de la qualité qu'on vous a fourni, et vous ne pourrez pas forcément avoir 100% en précision, mais cela doit ressembler le plus possible.
 
 > [Pixel Perfect - Chrome Extension](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=en)
 
-* [ ] **Reading direction:** ![High][high_img] All pages need to be tested for LTR and RTL languages if they need to be supported.
+* [ ] **Reading direction:** ![Haut][high_img] Les pages ont étés testées dans les 2 sens de lecture si les 2 sont supportés (gauche à droite et droite à gauche).
 
 > * 📖 [Building RTL-Aware Web Apps & Websites: Part 1 - Mozilla Hacks](https://hacks.mozilla.org/2015/09/building-rtl-aware-web-apps-and-websites-part-1/)
 > * 📖 [Building RTL-Aware Web Apps & Websites: Part 2 - Mozilla Hacks](https://hacks.mozilla.org/2015/10/building-rtl-aware-web-apps-websites-part-2/)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ retour en haut](#table-of-contents)**
 
 ---
 
 ## Images
 
-> **Notes:** For a complete understanding of image optimization, check the free ebook **[Essential Image Optimization](https://images.guide/)** from Addy Osmani.
+> **Notes:** Pour une complète compréhension de l'ptimisation des images, lisez ce livre gratuit **[Essential Image Optimization](https://images.guide/)** d'Addy Osmani.
 
 ### Best practices
 
-* [ ] **Optimization:** ![High][high_img] All images are optimized to be rendered in the browser. WebP format could be used for critical pages (like Homepage).
+* [ ] **Optimization:** ![Haut][high_img] All images are optimized to be rendered in the browser. WebP format could be used for critical pages (like Homepage).
 
 > * 🛠 [Imagemin](https://github.com/imagemin/imagemin)
 > * 🛠 Use [ImageOptim](https://imageoptim.com/) to optimise your images for free.
 > * 🛠 Use [Kraken.io](https://kraken.io/web-interface) awesome alternative for both png and jpg optimization. Up to 1mb per files on free plan.
 
-* [ ] **Picture/Srcset:** ![Medium][medium_img] You use picture/srcset to provide the most appropriate image for the current viewport of the user.
+* [ ] **Picture/Srcset:** ![Moyen][medium_img] You use picture/srcset to provide the most appropriate image for the current viewport of the user.
 
 > * 📖 [How to Build Responsive Images with srcset](https://www.sitepoint.com/how-to-build-responsive-images-with-srcset/)
 
-* [ ] **Retina:** ![Low][low_img] You provide layout images 2x or 3x, support retina display.
-* [ ] **Sprite:** ![Medium][medium_img] Small images are in a sprite file (in the case of icons, they can be in an SVG sprite image).
-* [ ] **Width and Height:** ![High][high_img] Set `width` and `height` attributes on `<img>` if the final rendered image size is known (can be omitted for CSS sizing).
-* [ ] **Alternative text:** ![High][high_img] All `<img>` have an alternative text which describe the image visually.
+* [ ] **Retina:** ![Bas][low_img] You provide layout images 2x or 3x, support retina display.
+* [ ] **Sprite:** ![Moyen][medium_img] Small images are in a sprite file (in the case of icons, they can be in an SVG sprite image).
+* [ ] **Width and Height:** ![Haut][high_img] Set `width` and `height` attributes on `<img>` if the final rendered image size is known (can be omitted for CSS sizing).
+* [ ] **Alternative text:** ![Haut][high_img] All `<img>` have an alternative text which describe the image visually.
 
 > * 📖 [Alt-texts: The Ultimate Guide](https://axesslab.com/alt-texts/)
 
