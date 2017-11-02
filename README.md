@@ -6,7 +6,7 @@
 [![StackShare](https://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/thedaviddias/front-end-checklist)
 [![CC0](https://img.shields.io/badge/license-CC0-green.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-La **Checklist Front-End FRENCH / francaise** est une liste exhaustive de tous les élements dont vous avez besoin avant de lancer votre site HTML en production.
+La **Checklist Front-End** est une liste exhaustive de tous les élements dont vous avez besoin avant de lancer votre site HTML en production.
 
 Celle-ci est basée sur des années d'experience de développeurs Front-End, en y ajoutant divers checklists de projets open-source.
 
