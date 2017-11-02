@@ -540,7 +540,7 @@ Le balisage xml minimum requis pour le balisage du fichier browserconfig.xml doi
 
 ### Tester la Performance
 
-* [ ] **Google PageSpeed:** ![Haut][high_img] Toutes vos pages ont étés testés (pas seulement la page d'accueil) et ont un score au pire de 90/100.
+* [ ] **Google PageSpeed:** ![Haut][high_img] Toutes vos pages ont étés testées (pas seulement la page d'accueil) et ont un score au pire de 90/100.
 
 > * 🛠 [Google PageSpeed](https://developers.google.com/speed/pagespeed/insights/)
 > * 🛠 [Tester votre vitesse mobile avec Google](https://testmysite.withgoogle.com)
@@ -589,7 +589,7 @@ Le balisage xml minimum requis pour le balisage du fichier browserconfig.xml doi
 
 ### Formulaire
 
-* [ ] **Label:** ![Haut][high_img] Un label est associaté avec chaque élement de formulaire. Dans le cas ou un label ne peut être affiché, utiliser `aria-label` à la place.
+* [ ] **Label:** ![Haut][high_img] Un label est associé avec chaque élement de formulaire. Dans le cas ou un label ne peut être affiché, utiliser `aria-label` à la place.
 
 > * 📖 [Utiliser l'attribut aria-label - MDN](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-label_attribute)
 
@@ -605,37 +605,37 @@ Le balisage xml minimum requis pour le balisage du fichier browserconfig.xml doi
 
 > * 📹 [Managing Focus - A11ycasts #22](https://www.youtube.com/watch?v=srLRSQg6Jgg&index=5&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ retour en haut](#table-of-contents)**
 
 ---
 
 ## SEO
 
-* [ ] **Google Analytics:** ![High][high_img] Google Analytics is installed and correctly configured.
-* [ ] **Headings logic:** ![Medium][medium_img] Heading text helps to understand the content in the current page.
-* [ ] **sitemap.xml:** ![High][high_img] A sitemap.xml exists and was submitted to Google Search Console (previously Google Webmaster Tools).
-* [ ] **robots.txt:** ![High][high_img] The robots.txt is not blocking webpages.
+* [ ] **Google Analytics:** ![Haut][high_img] Google Analytics est installé et correctement configuré.
+* [ ] **Headings logic:** ![Moyen][medium_img] Le texte d'entête aide à comprendre le contenu de la page courante.
+* [ ] **sitemap.xml:** ![Haut][high_img] Un sitemap.xml existe et a été envoyé à Google Search Console (historiquement Google Webmaster Tools).
+* [ ] **robots.txt:** ![Haut][high_img] Le robots.txt ne bloque pas l'indexation des pages.
 
-> * 🛠 Test your robots.txt with [Google Robots Testing Tool](https://www.google.com/webmasters/tools/robots-testing-tool)
+> * 🛠 Tester votre robots.txt avec [Google Robots Testing Tool](https://www.google.com/webmasters/tools/robots-testing-tool)
 
-* [ ] **Structured Data:** ![High][high_img] Pages using structured data are tested and are without errors. Structured data helps crawlers understand the content in the current page.
+* [ ] **Structured Data:** ![Haut][high_img] Les pages utilisant une structure de données ont étés testés et n'ont pas d'erreurs. Les données structurées aide les crawlers à comprendre le contenu de votre page.
 
-> * 📖 [Introduction to Structured Data - Search - Google Developers](https://developers.google.com/search/docs/guides/intro-structured-data)
-> * 🛠 Test your page with the [Structured Data Testing Tool](https://developers.google.com/structured-data/testing-tool/)
-> * 🛠 Complete list of vocabularies that can be used as structured data. [Schema.org Full Heirarchy](http://schema.org/docs/full.html)
+> * 📖 [Introduction aux données structurées - Search - Google Developers](https://developers.google.com/search/docs/guides/intro-structured-data)
+> * 🛠 Tester votre pageavec [Structured Data Testing Tool](https://developers.google.com/structured-data/testing-tool/)
+> * 🛠 Liste complete du vocabulaire utilisé dans les données structurées. [Schema.org Full Heirarchy](http://schema.org/docs/full.html)
 
-* [ ] **Sitemap HTML:** ![Medium][medium_img] An HTML sitemap is provided and is accessible via a link in the footer of your website.
+* [ ] **Sitemap HTML:** ![Moyen][medium_img] Un sitemap HTML est fourni et accessible via un lien dans le pied de pagede votre site.
 
 > * 📖 [Sitemap guidelines - Google Support](https://support.google.com/webmasters/answer/183668?hl=en)
 > * 🛠 [Sitemap generator](https://websiteseochecker.com/html-sitemap-generator/)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ retour en haut](#table-of-contents)**
 
 ---
 
-## Translation
+## Traduction
 
-The Front-End Checklist is also available in other languages. Thanks for all translators and their awesome work!
+La Checklist Front-End est aussi disponible dans d'autres langues. Merci aux traducteurs et à leur travail !
 
 * 🇯🇵 Japanese: [miya0001/Front-End-Checklist](https://github.com/miya0001/Front-End-Checklist)
 * 🇪🇸 Spanish: [eoasakura/Front-End-Checklist-ES](https://github.com/eoasakura/Front-End-Checklist-ES)
@@ -644,12 +644,12 @@ The Front-End Checklist is also available in other languages. Thanks for all tra
 * 🇧🇷 Portuguese: [jcezarms/Front-End-Checklist](https://github.com/jcezarms/Front-End-Checklist)
 * 🇻🇳 Vietnamese: [euclid1990/Front-End-Checklist](https://github.com/euclid1990/Front-End-Checklist)
 * 🇹🇼 Traditional Chinese: [EngineLin/Front-End-Checklist](https://github.com/EngineLin/Front-End-Checklist)
-
+* FR Japanese: [ynizon/Front-End-Checklist](https://github.com/ynizon/Front-End-Checklist)
 ---
 
 ## Front-End Checklist Badge
 
-If you want to show you are following the rules of the Front-End Checklist, put this badge on your README file!
+Si vous voulez montrer que vous suivez les règles de la  Checklist Front-End, posez ce badge sur votre fichier README!
 
 ➔ [![Front‑End_Checklist followed](https://img.shields.io/badge/Front‑End_Checklist-followed-brightgreen.svg)](https://github.com/thedaviddias/Front-End-Checklist/)
 
@@ -657,25 +657,25 @@ If you want to show you are following the rules of the Front-End Checklist, put 
 [![Front‑End_Checklist followed](https://img.shields.io/badge/Front‑End_Checklist-followed-brightgreen.svg)](https://github.com/thedaviddias/Front-End-Checklist/)
 ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ retour en haut](#table-of-contents)**
 
 ---
 
-## Contributing
+## Contribuer
 
-**Open an issue or a pull request to suggest changes or additions.**
+**Ouvrez une de mande de correction ou de suggestion pour faune une modification ou un ajout.**
 
 ### Guide
 
-The **Front-End Checklist** repository consists of two branches:
+Le repository **Front-End Checklist** consiste en 2 branches:
 
 #### 1. `maitre`
 
-La branche consiste dans ce fichier `README.md` automatiquement créé depuis le site [Front-End Checklist](http://frontendchecklist.com/) .
+La branche consiste dans ce fichier `README.md` créé depuis le site [Front-End Checklist](http://frontendchecklist.com/) .
 
 #### 2. `developpeurs`
 
-Cette branche sera utilisé pour faire des changements significatifs à la structure si besoin. Il est préférable d'utiliser la branchemaitre pour corriger des petites erreurs ou pour ajouter un nouvel élément.
+Cette branche sera utilisé pour faire des changements significatifs à la structure si besoin. Il est préférable d'utiliser la branche maitre pour corriger des petites erreurs ou pour ajouter un nouvel élément.
 
 ### Contributeurs
 
@@ -683,16 +683,15 @@ Cette branche sera utilisé pour faire des changements significatifs à la struc
 
 ## Support
 
-If you have any question or suggestion, don't hesitate to use Gitter or Twitter:
+Si vous avez des questions ou des suggestions, n'hesitez pas à m'interpeller sur Gitter ou Twitter:
 
-* [Chat on Gitter](https://gitter.im/Front-End-Checklist/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
+* [Chat sur Gitter](https://gitter.im/Front-End-Checklist/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
 * [Facebook](https://www.facebook.com/frontendchecklist/)
 * [Twitter](https://twitter.com/thedaviddias)
 
 ## Auteurs
 
 **[David Dias](https://github.com/thedaviddias/Front-End-Checklist)**
-**Traduction FR: [Yohann Nizon](https://www.gameandme.fr)**
 
 ## License
 
