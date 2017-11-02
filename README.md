@@ -13,7 +13,7 @@ Celle-ci est basée sur des années d'experience de développeurs Front-End, en 
 *Si vous l'aimez , merci de la partager en votant sur Product Hunt*
 [![](http://res.cloudinary.com/djnyaloac/image/upload/v1508896898/upvote-producthunt_vzys4c.jpg)](https://www.producthunt.com/posts/front-end-checklist)
 
-## Table of Contents
+## Table des matières
 
 1. **[Head](#head)**
 2. **[HTML](#html)**
