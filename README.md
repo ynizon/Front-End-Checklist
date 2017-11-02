@@ -21,9 +21,9 @@ Celle-ci est basée sur des années d'experience de développeurs Front-End, en 
 4. **[CSS](#css)**
 5. **[Images](#images)**
 6. **[JavaScript](#javascript)**
-7. **[Security](#security)**
+7. **[Securité](#security)**
 8. **[Performance](#performance-1)**
-9. **[Accessibility](#accessibility)**
+9. **[Accessibilité](#accessibility)**
 10. **[SEO](#seo)**
 
 ## Comment l'utiliser ?
