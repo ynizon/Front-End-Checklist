@@ -279,7 +279,7 @@ Le balisage xml minimum requis pour le balisage du fichier browserconfig.xml doi
 
 ## Webfonts
 
-> **Notes:** Utiliser les webfonts peut causer des problèmes de textes invisibles avec Flash - consider having fallback fonts and/or utilizing webfont loaders to control behavior.
+> **Notes:** Utiliser les webfonts peut causer des problèmes de textes invisibles avec Flash - envisager d'avoir des polices de secours et / ou d'utiliser des chargeurs webfont pour contrôler le comportement.
 > * 📖 [Google Technical considerations about webfonts](https://developers.google.com/fonts/docs/technical_considerations)
 
 * [ ] **Webfont format:** ![Haut][high_img] WOFF, WOFF2 et TTF sont tous supportés par les navigateurs modernes.
