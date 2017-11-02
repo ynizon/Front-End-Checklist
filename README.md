@@ -420,13 +420,13 @@ Le balisage xml minimum requis pour le balisage du fichier browserconfig.xml doi
 
 > * 📖 [Remove Render-Blocking JavaScript](https://developers.google.com/speed/docs/insights/BlockingJS)
 
-* [ ] **Modernizr:** ![Bas][low_img] If you need to target some specific features you can use a custom Modernizr to add classes in your `<html>` tag.
+* [ ] **Modernizr:** ![Bas][low_img] Si vous avez besoin de fonctionnalités spécifiques, vous pouvez utiliser un Modernizr personnalisé pour ajouter les classes au tag `<html>`.
 
-> * 🛠 [Customize your Modernizr](https://modernizr.com/download?setclasses)
+> * 🛠 [Personnaliser votre Modernizr](https://modernizr.com/download?setclasses)
 
-### JavaScript testing
+### Tester le JavaScript 
 
-* [ ] **ESLint:** ![High][high_img] No errors are flagged by ESLint (based on your configuration or standards rules).
+* [ ] **ESLint:** ![Haut][high_img] Pas d'erreurs détéctés par ESLint (basé sur votre configuration ou sur les règles standards).
 
 > * 📖 [ESLint - The pluggable linting utility for JavaScript and JSX](https://eslint.org/)
 
@@ -434,33 +434,33 @@ Le balisage xml minimum requis pour le balisage du fichier browserconfig.xml doi
 
 ---
 
-## Security
+## Securité
 
-### Scan and check your web site
+### Scan et vérification de votre site web
 
 > * [securityheaders.io](https://securityheaders.io/)
 > * [Observatory by Mozilla](https://observatory.mozilla.org/)
 > * [ASafaWeb - Automated Security Analyser for ASP.NET Websites](https://asafaweb.com/)
 
-### Best practices
+### Bonnes practiques
 
-* [ ] **HTTPS:** ![Medium][medium_img] HTTPS is used on every pages and for all external content (plugins, images...).
+* [ ] **HTTPS:** ![Moyen][medium_img] HTTPS est utilisé sur chaque page et sur tous vos contenus externes (plugins, images...).
 
 > * 🛠 [Let's Encrypt - Free SSL/TLS Certificates](https://letsencrypt.org/)
 > * 🛠 [Free SSL Server Test](https://www.ssllabs.com/ssltest/index.html)
 > * 📖 [Strict Transport Security](http://caniuse.com/#feat=stricttransportsecurity)
 
-* [ ] **HTTP Strict Transport Security (HSTS):** ![Medium][medium_img] The HTTP header is set to 'Strict-Transport-Security'.
+* [ ] **HTTP Strict Transport Security (HSTS):** ![Moyen][medium_img] L'entête HTTP est définis à 'Strict-Transport-Security'.
 
 > * 🛠 [Check HSTS preload status and eligibility](https://hstspreload.org/)
 > * 📖 [HTTP Strict Transport Security Cheat Sheet - OWASP](https://www.owasp.org/index.php/HTTP_Strict_Transport_Security_Cheat_Sheet)
 > * 📖 [Transport Layer Protection Cheat Sheet - OWASP](https://www.owasp.org/index.php/Transport_Layer_Protection_Cheat_Sheet)
 
-* [ ] **Cross Site Request Forgery (CSRF):** ![High][high_img] You ensure that requests made to your server-side are legitimate and originate from your website / app to prevent CSRF attacks.
+* [ ] **Cross Site Request Forgery (CSRF):** ![High][high_img] Vous êtes sure que vos requêtes faites coté serveursont légitimes et proviennent de votre site / app pour éviter les attaques CSRF.
 
 > * 📖 [Cross-Site Request Forgery (CSRF) Prevention Cheat Sheet  - OWASP](https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)_Prevention_Cheat_Sheet)
 
-* [ ] **Cross Site Scripting (XSS):** ![High][high_img] Your page or website is free from XSS possible issues.
+* [ ] **Cross Site Scripting (XSS):** ![High][high_img] Votre page ou site website est dégagé des problèmes XSS possibles.
 
 > * 📖 [XSS (Cross Site Scripting) Prevention Cheat Sheet  - OWASP](https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet)
 > * 📖 [DOM based XSS Prevention Cheat Sheet  - OWASP](https://www.owasp.org/index.php/DOM_based_XSS_Prevention_Cheat_Sheet)
@@ -474,51 +474,51 @@ Le balisage xml minimum requis pour le balisage du fichier browserconfig.xml doi
 > * 📖 [X-Frame-Options - Scott Helme](https://scotthelme.co.uk/hardening-your-http-response-headers/#x-frame-options)
 > * 📖 [RFC7034 - HTTP Header Field X-Frame-Options](https://tools.ietf.org/html/rfc7034)
 
-* [ ] **Content Security Policy** ![Medium][medium_img] Defines how content is loaded on your site and from where it is permitted to be loaded. Can also be used to protect against clickjacking attacks.
+* [ ] **Content Security Policy** ![Moyen][medium_img] Definir comment le contenu est chargé sur votre site et d'ou il est autorisé à être chargé. Cela peut aussi vous permettre de vous protéger des attaques par clickjacking.
 
 > * 📖 [Content Security Policy - An Introduction - Scott Helme](https://scotthelme.co.uk/content-security-policy-an-introduction/)
 > * 📖 [CSP Cheat Sheet - Scott Helme](https://scotthelme.co.uk/csp-cheat-sheet/)
 > * 📖 [CSP Cheat Sheet - OWASP](https://www.owasp.org/index.php/Content_Security_Policy_Cheat_Sheet)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ retour en haut](#table-of-contents)**
 
 ---
 
 ## Performance
 
-### Best practices
+### Bonnes practiques
 
-- [ ] **Weight page:** ![High][high_img] The weight of each page is between 0 and 500 KB.
+- [ ] **Weight page:** ![Haut][high_img] Le poids de chaque page est entre 0 et 500 KB.
 
 > * 🛠 [Website Page Analysis](https://tools.pingdom.com)
 > * 📖 [Size Limit: Make the Web lighter](https://evilmartians.com/chronicles/size-limit-make-the-web-lighter)
 
-- [ ] **Minified:** ![Medium][medium_img] Your HTML is minified.
+- [ ] **Minified:** ![Moyen][medium_img] Votre HTML est minifié.
 > * 🛠 [W3C Validator](https://validator.w3.org/)
 
-* [ ] **Lazy loading:** ![Medium][medium_img] Images, scripts and CSS need to be lazy loaded to improve the response time of the current page (See details in their respective sections).
+* [ ] **Lazy loading:** ![Moyen][medium_img] Images, scripts et CSS doivent être chargé en lazy loading pour améliorer le temps de  réponse (Voir les details dans la section respective).
 
-* [ ] **Cookie size:** If you are using cookies be sure each cookie doesn't exceed 4096 bytes and your domain name doesn't have more than 20 cookies.
+* [ ] **Cookie size:** Si vous utilisez des cookies, assurez vous qu'ils n'excèdent pas 4096 bytes et qu'il n'y en a pas plus de 20 pour votre nom de domaine.
 
 > * 📖 [Cookie specification: RFC 6265](https://tools.ietf.org/html/rfc6265)
 > * 📖 [Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
 > * 🛠 [Browser Cookie Limits](http://browsercookielimits.squawky.net/)
 
-* [ ] **Third party components:** ![Medium][medium_img] Third party iframes or components relying on external JS (like sharing buttons) are replaced by static components when possible, thus limiting calls to external APIs and keeping your users activity private.
+* [ ] **Third party components:** ![Moyen][medium_img] Les éléments tiers comme les iframes ou les composants basés sur des JS externes (comme les boutons de partage)sont remplacés par des composants statiques quand c'est possible, pour limiter les appels aux APIs externes et préservez l'activité de vos visiteurs confidentielle.
 
 > * 🛠 [Simple sharing buttons generator](https://simplesharingbuttons.com/)
 
 ### Preparing upcoming requests
 
-> * 📖 [Explanation of the following techniques](https://css-tricks.com/prefetching-preloading-prebrowsing/)
+> * 📖 [Expliquation des techniques suivantes](https://css-tricks.com/prefetching-preloading-prebrowsing/)
 
-* [ ] **DNS resolution:** ![Low][low_img] DNS of third-party services that may be needed are resolved in advance during idle time using `dns-prefetch`.
+* [ ] **DNS resolution:** ![Bas][low_img] DNS est un service tiers qui a peut résoudre en avance les prochaines requêtes grâce à l'utilisation de `dns-prefetch`.
 
 ```html
 <link rel="dns-prefetch" href="https://example.com">
 ```
 
-* [ ] **Preconnection:** ![Low][low_img] DNS lookup, TCP handshake and TLS negociation with services that will be needed soon is done in advance during idle time using `preconnect`.
+* [ ] **Preconnection:** ![Bas][low_img] DNS lookup, TCP handshake et la negociation TLS avec services permettent de gagner deu temps en utilisant `preconnect`.
 
 ```html
 <link rel="preconnect" href="https://example.com">
@@ -530,78 +530,78 @@ Le balisage xml minimum requis pour le balisage du fichier browserconfig.xml doi
 <link rel="prefetch" href="image.png">
 ```
 
-* [ ] **Preloading:** ![Low][low_img] Resources needed in the current page (e.g. scripts placed at the end of `<body>`) in advance using `preload`.
+* [ ] **Preloading:** ![Low][low_img] Les resources nécessaires à la page courrante (e.g. scripts placés en bas du tag `<body>`) sont chargés en avance avec `preload`.
 
 ```html
 <link rel="preload" href="app.js">
 ```
 
-> * 📖 [Difference between prefetch and preload](https://medium.com/reloading/preload-prefetch-and-priorities-in-chrome-776165961bbf)
+> * 📖 [Différences entre prefetch et preload](https://medium.com/reloading/preload-prefetch-and-priorities-in-chrome-776165961bbf)
 
-### Performance testing
+### Tester la Performance
 
-* [ ] **Google PageSpeed:** ![High][high_img] All your pages were tested (not only the homepage) and have a score of at least 90/100.
+* [ ] **Google PageSpeed:** ![Haut][high_img] Toutes vos pages ont étés testés (pas seulement la page d'accueil) et ont un score au pire de 90/100.
 
 > * 🛠 [Google PageSpeed](https://developers.google.com/speed/pagespeed/insights/)
-> * 🛠 [Test your mobile speed with Google](https://testmysite.withgoogle.com)
+> * 🛠 [Tester votre vitesse mobile avec Google](https://testmysite.withgoogle.com)
 > * 🛠 [WebPagetest - Website Performance and Optimization Test](https://www.webpagetest.org/)
 > * 🛠 [GTmetrix - Website speed and performance optimization](https://gtmetrix.com/)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ retour en haut](#table-of-contents)**
 
 ---
 
-## Accessibility
+## Accessibilité
 
-> **Notes:** You can watch the playlist [A11ycasts with Rob Dodson](https://www.youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g) 📹
+> **Notes:** Vous pouvez regader la playlist [A11ycasts with Rob Dodson](https://www.youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g) 📹
 
-### Best practices
+### Bonnes practiques
 
-- [ ] **Progressive enhancement:** ![Medium][medium_img] Major functionality like main navigation and search should work without JavaScript enabled.
+- [ ] **Progressive enhancement:** ![Moyen][medium_img] Les fonctionnalités importantes comme la navigation et la recherche doivent pouvoir fonctionner sans JavaScript.
 
 > * 📖 [Enable / Disable JavaScript in Chrome Developer Tools](https://www.youtube.com/watch?v=kBmvq2cE0D8)
 
-- [ ] **Color contrast:** ![Medium][medium_img] Color contrast should at least pass WCAG AA (AAA for mobile).
+- [ ] **Contraste des couleurs:** ![Moyen][medium_img] Le contraste des couleurs doit être au pire WCAG AA (AAA pour le mobile).
 
 > * 🛠 [Contrast ratio](https://leaverou.github.io/contrast-ratio/)
 
 #### Headings
 
-* [ ] **H1:** ![High][high_img] All pages have an H1 which is not the title of the website.
-* [ ] **Headings:** ![High][high_img] Headings should be used properly in the right order (H1 to H6).
+* [ ] **H1:** ![Haut][high_img] Toutes les pages ont un H1 qui n'est pas le titre du site.
+* [ ] **Headings:** ![Haut][high_img] Les balises Hn doivent être correctement utilisées dans le bon ordre (H1 à H6).
 
 > * 📹 [Why headings and landmarks are so important -- A11ycasts #18](https://www.youtube.com/watch?v=vAAzdi1xuUY&index=9&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g)
 
 #### Landmarks
 
-- [ ] **Role banner:** ![High][high_img] `<header>` has `role="banner"`.
-- [ ] **Role navigation:** ![High][high_img] `<nav>` has `role="navigation"`.
-- [ ] **Role main:** ![High][high_img] `<main>` has `role="main"`.
+- [ ] **Role banner:** ![Haut][high_img] `<header>` a le `role="banner"`.
+- [ ] **Role navigation:** ![Haut][high_img] `<nav>` a le `role="navigation"`.
+- [ ] **Role main:** ![Haut][high_img] `<main>` a le `role="main"`.
 
 > * 📖 [Using ARIA landmarks to identify regions of a page](https://www.w3.org/WAI/GL/wiki/Using_ARIA_landmarks_to_identify_regions_of_a_page)
 > * 📖 [ARIA roles categorization](https://www.w3.org/TR/wai-aria/roles#roles_categorization)
 
 ### Semantics
 
-- [ ] **Specific HTML5 input types are used:** ![Medium][medium_img] This is especially important for mobile devices that show customized keypads and widgets for different types.
+- [ ] **Specific HTML5 input types are used:** ![Moyen][medium_img] C'est assez important pour les périphériques mobiles de personnaliser les keypads et autres widgets pour améliorer l'ergonomie.
 
 > * 📖 [Mobile Input Types](http://mobileinputtypes.com/)
 
-### Form
+### Formulaire
 
-* [ ] **Label:** ![High][high_img] A label is associated with each input form element. In case a label can't be displayed, use `aria-label` instead.
+* [ ] **Label:** ![Haut][high_img] Un label est associaté avec chaque élement de formulaire. Dans le cas ou un label ne peut être affiché, utiliser `aria-label` à la place.
 
-> * 📖 [Using the aria-label attribute - MDN](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-label_attribute)
+> * 📖 [Utiliser l'attribut aria-label - MDN](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-label_attribute)
 
-### Accessibility testing
+### Tester l'accessibilité
 
-* [ ] **Accessibility standards testing:** ![High][high_img] Use the WAVE tool to test if your page respects the accessibility standards.
+* [ ] **Test des standards d'accessibilité:** ![High][high_img] Utiliser l'outil WAVE tool pour vous assurer de respecter les standards d'accessibilité.
 
 > * 🛠 [Wave testing](http://wave.webaim.org/)
 
-* [ ] **Keyboard navigation:** ![High][high_img] Test your website using only your keyboard in a previsible order. All interactive elements are reachable and usable.
-* [ ] **Screen-reader:** ![Medium][medium_img] All pages were tested in a screen-reader (VoiceOver, ChromeVox, NVDA or Lynx).
-* [ ] **Focus style:** ![High][high_img] If the focus is disabled, it is replaced by visible state in CSS.
+* [ ] **Navigation par clavier:** ![Haut][high_img] Tester votre site en utilisant uniquement votre clavier dans un ordre prévisible. Tous les élements doivent être accessibles et utilisables.
+* [ ] **Screen-reader:** ![Medium][medium_img] Toutes les pages ont étés testées dans un outil de lecture d'écran (VoiceOver, ChromeVox, NVDA or Lynx).
+* [ ] **Focus style:** ![High][high_img] Si le focus est désactivé, il est remplacé par un état visible en CSS.
 
 > * 📹 [Managing Focus - A11ycasts #22](https://www.youtube.com/watch?v=srLRSQg6Jgg&index=5&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g)
 
