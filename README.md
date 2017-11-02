@@ -28,11 +28,11 @@ Celle-ci est basée sur des années d'experience de développeurs Front-End, en 
 
 ## Comment l'utiliser ?
 
-Tous les élements de la **Front-End Checklist** sont requis dans la majorité de vos projets, mais certains peuvent être omis ou ne sont pas essentiels (par exemple, dans le cas d'une app d'administration , vous n'avez pas besoin de flux RSS). Nous avons choisi d'utiliser  3 niveaux de flexibilité:
+Tous les élements de la **Front-End Checklist** sont requis dans la majorité de vos projets, mais certains peuvent être omis ou ne sont pas essentiels (par exemple, dans le cas d'une application d'administration , vous n'avez pas besoin de flux RSS). Nous avons choisi d'utiliser  3 niveaux de flexibilité:
 
 * ![Bas][low_img] signifie que l'élement est **recommandé** mais peut être omis dans certaines situations.
 * ![Moyen][medium_img] signifie que l'élement est **hautement recommandé** et peut éventuellement être omis dans certains cas particuliers . Certains élements s'ils sont omis peuvent avoir des mauvais effets secondaires en terme de performance ou de référencement (SEO).
-* ![Haut][high_img] signifie que l'élement **est indispensable**. Vous pouvez provoquer des dysfonctionnements dans votre page, ou avoir des problèmes d'accessibilité, voir de SEO. La priorité des tests doit d'abord s'assurer de ces éléments en premiers.
+* ![Haut][high_img] signifie que l'élement **est indispensable**. Vous pouvez provoquer des dysfonctionnements dans votre page, ou avoir des problèmes d'accessibilité, voir de SEO. La priorité des tests doit d'abord s'assurer de ces éléments en premier.
 
 Plusieurs resources possèdent un emoticon pour vous aider à comprendre quel type de contenu il s'agit :
 
@@ -44,22 +44,22 @@ Plusieurs resources possèdent un emoticon pour vous aider à comprendre quel ty
 
 ## Head
 
-> **Notes:** Vous pouvez trouver [une liste de toute les balises](https://github.com/joshbuchea/HEAD) qui peuvent être trouvés dans la section  `<head>` d'un document HTML.
+> **Notes:** Vous pouvez trouver [une liste de toute les balises](https://github.com/joshbuchea/HEAD) qui peuvent être trouvées dans la section  `<head>` d'un document HTML.
 
 ### Meta tag
 
-* [ ] **Doctype:** ![Haute][high_img] Le Doctype en HTML5 doit être en haut de toutes vos pages HTML.
+* [ ] **Doctype:** ![Haut][high_img] Le Doctype en HTML5 doit être en haut de toutes vos pages HTML.
 
 ```html
 <!-- Doctype HTML5 -->
 <!doctype html>
 ```
 
-> * 📖 [Determiné l'encodage - HTML5 W3C](https://www.w3.org/TR/html5/syntax.html#determining-the-character-encoding)
+> * 📖 [Determiner l'encodage - HTML5 W3C](https://www.w3.org/TR/html5/syntax.html#determining-the-character-encoding)
 
 *Les prochains 3 meta tags (Charset, X-UA Compatible and Viewport) doivent venir en premier dans le head.*
 
-* [ ] **Charset:** ![Haute][high_img] Le charset declaré (UTF-8) est correctement declaré.
+* [ ] **Charset:** ![Haut][high_img] Le charset (UTF-8) est correctement declaré.
 
 ```html
 <!-- Set character encoding for the document -->
@@ -73,16 +73,16 @@ Plusieurs resources possèdent un emoticon pour vous aider à comprendre quel ty
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 ```
 
-> * 📖 [Specifié le mode d'héritage des documents (Internet Explorer)](https://msdn.microsoft.com/en-us/library/jj676915(v=vs.85).aspx)
+> * 📖 [Specifier le mode d'héritage des documents (Internet Explorer)](https://msdn.microsoft.com/en-us/library/jj676915(v=vs.85).aspx)
 
-* [ ] **Viewport:** ![Haute][high_img] Le viewport est correctement déclaré.
+* [ ] **Viewport:** ![Haut][high_img] Le viewport est correctement déclaré.
 
 ```html
 <!-- Viewport for responsive web design -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 ```
 
-* [ ] **Title:** ![Haute][high_img] Un titre est utilisé sur chaque page (SEO: Google calcule la largeur des pixels de chaque caractères utilisés dans le titre, et coupe entre 472 et 482 pixels. La limite moyenne de caractères se situe autour des 55).
+* [ ] **Title:** ![Haut][high_img] Un titre est utilisé sur chaque page (SEO: Google calcule la largeur des pixels de chaque caractères utilisés dans le titre, et coupe entre 472 et 482 pixels. La limite moyenne de caractères se situe autour des 55).
 
 ```html
 <!-- Document Title -->
@@ -92,7 +92,7 @@ Plusieurs resources possèdent un emoticon pour vous aider à comprendre quel ty
 > * 📖 [Title - HTML - MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title)
 > * 🛠 [SERP Snippet Generator](https://www.sistrix.com/serp-snippet-generator/)
 
-* [ ] **Description:** ![Haute][high_img] Une meta description est fourni, elle est unique et ne contient pas plus de 150 caractères.
+* [ ] **Description:** ![Haut][high_img] Une meta description est fournie, elle est unique et ne contient pas plus de 150 caractères.
 
 ```html
 <!-- Meta Description -->
@@ -101,7 +101,7 @@ Plusieurs resources possèdent un emoticon pour vous aider à comprendre quel ty
 
 > * 📖[Meta Description - HTML - MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#Adding_an_author_and_description)
 
-* [ ] **Favicons:** ![Moyen][medium_img] Chaque favicon a été créé et s'affiche correctement. Si vous avez un `favicon.ico`, posez le à la racine de votre site. Normallement vous n'avez pas besoin d'utiliser de balise. Cependant, cela reste une bonne pratique de le relier comme dans l'exemple ci-dessous. Aujourd'hui, **Le PNG est recommendé** en remplacement du format `.ico` (dimensions: 32x32px).
+* [ ] **Favicons:** ![Moyen][medium_img] Chaque favicon a été créé et s'affiche correctement. Si vous avez un `favicon.ico`, posez le à la racine de votre site. Normalement vous n'avez pas besoin d'utiliser de balise. Cependant, cela reste une bonne pratique de le relier comme dans l'exemple ci-dessous. Aujourd'hui, **Le PNG est recommandé** en remplacement du format `.ico` (dimensions: 32x32px).
 
 ```html
 <!-- Standard favicon -->
@@ -162,13 +162,13 @@ Le balisage xml minimum requis pour le balisage du fichier browserconfig.xml doi
 
 ### HTML tags
 
-* [ ] **Language attribute:** ![Haute][high_img] L'attribut `lang` de votre site est spécifié et indique le langage de la page courrante.
+* [ ] **Language attribute:** ![Haute][high_img] L'attribut `lang` de votre site est spécifié et indique le langage de la page courante.
 
 ```html
 <html lang="en">
 ```
 
-* [ ] **Direction attribute:** ![Moyen][medium_img] Le sens de lecture est specifié dans le tag html (Il peut être indiqué dans un autre tag HTML).
+* [ ] **L'attribut direction :** ![Moyen][medium_img] Le sens de lecture est specifié dans le tag html (Il peut être indiqué dans un autre tag HTML).
 
 ```html
 <html dir="rtl">
@@ -176,20 +176,20 @@ Le balisage xml minimum requis pour le balisage du fichier browserconfig.xml doi
 
 > * 📖 [dir - HTML - MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/dir)
 
-* [ ] **Alternate language:** ![Low][low_img] Le tag language de votre site est specifié et est en relation avec le language de la page courrante.
+* [ ] **Alternate language:** ![Low][low_img] Le tag language de votre site est specifié et est en relation avec le language de la page courante.
 
 ```html
 <link rel="alternate" href="https://es.example.com/" hreflang="es">
 ```
 
-* [ ] **Conditional comments:** ![Low][low_img] Les commentaires conditionnels sont présents pour IE si besoin.
+* [ ] **Commentaire conditionel:** ![Low][low_img] Les commentaires conditionnels sont présents pour IE si besoin.
 
 > * 📖 [About conditional comments (Internet Explorer) - MSDN - Microsoft](https://msdn.microsoft.com/en-us/library/ms537512(v=vs.85).aspx)
 
-* [ ] **RSS feed:** ![Bas][low_img] Si votre projet est un blog ou a des articles, un flux RSS est fourni.
+* [ ] **RSS feed:** ![Bas][low_img] Si votre projet est un blog ou possède des articles, un flux RSS est fourni.
 
-* [ ] **Inline critical CSS:** ![Moyen][medium_img] CSS avec le style des contenus qui doivent être immédiatement visibles pendant le chargement ("au dessus de la ligne de flottaison") sont appelés "CSS critiques". Ils sont inclus avant le CSS principal et entre les balises `<style></style>` dans une seule ligne (en étant minifié).
-> * 🛠 [Critical by Addy Osmani on GitHub](https://github.com/addyosmani/critical) automates this
+* [ ] **Inline critical CSS:** ![Moyen][medium_img] Les CSS des contenus qui doivent être immédiatement visibles pendant le chargement ("au dessus de la ligne de flottaison") sont appelés "CSS critiques". Ils sont inclus avant le CSS principal et entre les balises `<style></style>` dans une seule ligne (en étant minifié).
+> * 🛠 [Critical by Addy Osmani on GitHub](https://github.com/addyosmani/critical) automatise cela
 
 * [ ] **CSS order:** ![Haute][high_img] Tous les fichiers CSS sont chargés avant n'importe quel fichier JavaScript dans la section `<head>`. (Parfois certains fichiers JS sont chargés en asynchrones en haut de page, et font donc exception à la règle).
 
