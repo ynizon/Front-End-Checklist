@@ -233,7 +233,7 @@ Le balisage xml minimum requis pour le balisage du fichier browserconfig.xml doi
 > * 📖 [Débutez avec les cartes — Twitter Developers](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started)
 > * 🛠 Tester votre page avec [Twitter card validator](https://cards-dev.twitter.com/validator)
 
-**[⬆ Retour en haut](#table-of-contents)**
+**[⬆ Retour en haut](#table-des-matières)**
 
 ---
 
@@ -273,7 +273,7 @@ Le balisage xml minimum requis pour le balisage du fichier browserconfig.xml doi
 
 
 
-**[⬆ Retour en haut](#table-of-contents)**
+**[⬆ Retour en haut](#table-des-matières)**
 
 ---
 
@@ -295,7 +295,7 @@ Le balisage xml minimum requis pour le balisage du fichier browserconfig.xml doi
 
 > * 🛠 [Typekit Web Font Loader](https://github.com/typekit/webfontloader)
 
-**[⬆ retour en haut](#table-of-contents)**
+**[⬆ retour en haut](#table-des-matières)**
 
 ---
 
@@ -369,7 +369,7 @@ Le balisage xml minimum requis pour le balisage du fichier browserconfig.xml doi
 > * 📖 [Building RTL-Aware Web Apps & Websites: Part 1 - Mozilla Hacks](https://hacks.mozilla.org/2015/09/building-rtl-aware-web-apps-and-websites-part-1/)
 > * 📖 [Building RTL-Aware Web Apps & Websites: Part 2 - Mozilla Hacks](https://hacks.mozilla.org/2015/10/building-rtl-aware-web-apps-websites-part-2/)
 
-**[⬆ retour en haut](#table-of-contents)**
+**[⬆ retour en haut](#table-des-matières)**
 
 ---
 
@@ -398,7 +398,7 @@ Le balisage xml minimum requis pour le balisage du fichier browserconfig.xml doi
 
 * [ ] **Lazy loading:** ![Medium][medium_img] Les images sont chargées au fur et à mesure (Un noscript fallback est toujours fourni).
 
-**[⬆ retour en haut](#table-of-contents)**
+**[⬆ retour en haut](#table-des-matières)**
 
 ---
 
@@ -430,7 +430,7 @@ Le balisage xml minimum requis pour le balisage du fichier browserconfig.xml doi
 
 > * 📖 [ESLint - The pluggable linting utility for JavaScript and JSX](https://eslint.org/)
 
-**[⬆ retour en haut](#table-of-contents)**
+**[⬆ retour en haut](#table-des-matières)**
 
 ---
 
@@ -480,7 +480,7 @@ Le balisage xml minimum requis pour le balisage du fichier browserconfig.xml doi
 > * 📖 [CSP Cheat Sheet - Scott Helme](https://scotthelme.co.uk/csp-cheat-sheet/)
 > * 📖 [CSP Cheat Sheet - OWASP](https://www.owasp.org/index.php/Content_Security_Policy_Cheat_Sheet)
 
-**[⬆ retour en haut](#table-of-contents)**
+**[⬆ retour en haut](#table-des-matières)**
 
 ---
 
@@ -547,7 +547,7 @@ Le balisage xml minimum requis pour le balisage du fichier browserconfig.xml doi
 > * 🛠 [WebPagetest - Website Performance and Optimization Test](https://www.webpagetest.org/)
 > * 🛠 [GTmetrix - Website speed and performance optimization](https://gtmetrix.com/)
 
-**[⬆ retour en haut](#table-of-contents)**
+**[⬆ retour en haut](#table-des-matières)**
 
 ---
 
@@ -605,7 +605,7 @@ Le balisage xml minimum requis pour le balisage du fichier browserconfig.xml doi
 
 > * 📹 [Managing Focus - A11ycasts #22](https://www.youtube.com/watch?v=srLRSQg6Jgg&index=5&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g)
 
-**[⬆ retour en haut](#table-of-contents)**
+**[⬆ retour en haut](#table-des-matières)**
 
 ---
 
@@ -629,7 +629,7 @@ Le balisage xml minimum requis pour le balisage du fichier browserconfig.xml doi
 > * 📖 [Sitemap guidelines - Google Support](https://support.google.com/webmasters/answer/183668?hl=en)
 > * 🛠 [Sitemap generator](https://websiteseochecker.com/html-sitemap-generator/)
 
-**[⬆ retour en haut](#table-of-contents)**
+**[⬆ retour en haut](#table-des-matières)**
 
 ---
 
@@ -657,7 +657,7 @@ Si vous voulez montrer que vous suivez les règles de la  Checklist Front-End, p
 [![Front‑End_Checklist followed](https://img.shields.io/badge/Front‑End_Checklist-followed-brightgreen.svg)](https://github.com/thedaviddias/Front-End-Checklist/)
 ```
 
-**[⬆ retour en haut](#table-of-contents)**
+**[⬆ retour en haut](#table-des-matières)**
 
 ---
 
@@ -697,7 +697,7 @@ Si vous avez des questions ou des suggestions, n'hesitez pas à m'interpeller su
 
 [![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-**[⬆ Retour en haut](#table-of-contents)**
+**[⬆ Retour en haut](#table-des-matières)**
 
 [low_img]: http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-low.png
 [medium_img]: http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png
