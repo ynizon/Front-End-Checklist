@@ -383,7 +383,7 @@ Le balisage xml minimum requis pour le balisage du fichier browserconfig.xml doi
 
 > * 🛠 [Imagemin](https://github.com/imagemin/imagemin)
 > * 🛠 Utiliser [ImageOptim](https://imageoptim.com/) pour optimiser gratuitement vos images.
-> * 🛠 Utiliser [Kraken.io](https://kraken.io/web-interface) une alternativeincroyable pour des optimisations sur des png et des jpg . Jusqu'à 1 Mb en version gratuite.
+> * 🛠 Utiliser [Kraken.io](https://kraken.io/web-interface) une alternative incroyable pour des optimisations sur des png et des jpg . Jusqu'à 1 Mb en version gratuite.
 
 * [ ] **Picture/Srcset:** ![Moyen][medium_img] Vous pouvez utiliser des images/srcset pour fournir l'image la plus appropriée à la résolution de l'utilisateur.
 
