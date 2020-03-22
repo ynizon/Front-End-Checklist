@@ -1,17 +1,45 @@
-# Front-End Checklist
+<h1 align="center">
+<br>
+  <img src="https://raw.githubusercontent.com/thedaviddias/Front-End-Checklist/master/src/img/banners/logo-front-end-checklist.jpg" alt="Front-End Checklist" width="170">
+  <br>
+    <br>
+  Front-End Checklist [traduction FR]
+  <br>
+</h1>
 
-[![Join the chat at https://gitter.im/Front-End-Checklist/Lobby](https://badges.gitter.im/Front-End-Checklist/Lobby.svg)](https://gitter.im/Front-End-Checklist/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Front‑End_Checklist followed](https://img.shields.io/badge/Front‑End_Checklist-followed-brightgreen.svg)](https://github.com/thedaviddias/Front-End-Checklist/)
-[![Contributors](https://img.shields.io/github/contributors/thedaviddias/Front-End-Checklist.svg)](https://github.com/thedaviddias/Front-End-Checklist/graphs/contributors)
-[![StackShare](https://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/thedaviddias/front-end-checklist)
-[![CC0](https://img.shields.io/badge/license-CC0-green.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+<h4 align="center">La Checklist Front-End est une liste exhaustive de tous les élements dont vous avez besoin avant de lancer votre site HTML en production.</h4>
 
-La **Checklist Front-End** est une liste exhaustive de tous les élements dont vous avez besoin avant de lancer votre site HTML en production.
+<p align="center">
+  <a href="http://makeapullrequest.com">
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
+  </a>
+  <a href="https://gitpod.io/#https://github.com/thedaviddias/Front-End-Checklist">
+  <img src="https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod" alt="Gitpod Ready-to-Code">
+  </a>
+    <a href="https://github.com/thedaviddias/Front-End-Checklist/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/thedaviddias/Front-End-Checklist.svg?style=flat-square" alt="Contributors">
+  </a>
+  <a href="https://spectrum.chat/front-end-checklist">
+    <img src="https://img.shields.io/badge/chat-on_spectrum-4837E2.svg?style=flat-square" alt="Spectrum">
+  </a>
+      <a href="https://github.com/thedaviddias/Front-End-Checklist/">
+    <img src="https://img.shields.io/badge/Front‑End_Checklist-followed-brightgreen.svg?style=flat-square" alt="Front‑End_Checklist followed">
+</a>
+    <a href="https://creativecommons.org/publicdomain/zero/1.0/">
+    <img src="https://img.shields.io/badge/license-CC0-green.svg?style=flat-square" alt="CC0">
+  </a>
+</p>
+
+<p align="center">
+  <a href="#comment-lutiliser">Comment utiliser</a> • <a href="#contribuer">Contribuer</a> • <a href="https://frontendchecklist.io">Site Web [EN]</a> • <a href="https://www.producthunt.com/posts/front-end-checklist">Product Hunt</a>
+</p>
+<p align="center">
+    <span>Autres Checklists:</span>
+    <br>
+  <a href="https://github.com/thedaviddias/Front-End-Performance-Checklist#---------front-end-performance-checklist-">🎮 Front-End Performance Checklist [EN]</a> • <a href="https://github.com/thedaviddias/Front-End-Design-Checklist#front-end-design-checklist">💎 Front-End Design Checklist [EN]</a>
+</p>
 
 Celle-ci est basée sur des années d'experience de développeurs Front-End, en y ajoutant divers checklists de projets open-source.
-
-*Si vous l'aimez , merci de la partager en votant sur Product Hunt*
-[![](http://res.cloudinary.com/djnyaloac/image/upload/v1508896898/upvote-producthunt_vzys4c.jpg)](https://www.producthunt.com/posts/front-end-checklist)
 
 ## Table des matières
 
@@ -21,24 +49,27 @@ Celle-ci est basée sur des années d'experience de développeurs Front-End, en 
 4. **[CSS](#css)**
 5. **[Images](#images)**
 6. **[JavaScript](#javascript)**
-7. **[Securité](#security)**
+7. **[Securité](#securité)**
 8. **[Performance](#performance-1)**
-9. **[Accessibilité](#accessibility)**
+9. **[Accessibilité](#accessibilité)**
 10. **[SEO](#seo)**
+11. **[Traductions](#traduction)**
+
+---
 
 ## Comment l'utiliser ?
 
-Tous les élements de la **Front-End Checklist** sont requis dans la majorité de vos projets, mais certains peuvent être omis ou ne sont pas essentiels (par exemple, dans le cas d'une application d'administration , vous n'avez pas besoin de flux RSS). Nous avons choisi d'utiliser  3 niveaux de flexibilité:
+Tous les élements de la **Front-End Checklist** sont requis dans la majorité de vos projets, mais certains peuvent être omis ou ne sont pas essentiels (par exemple, dans le cas d'une application d'administration, vous n'avez pas besoin de flux RSS). Nous avons choisi d'utiliser 3 niveaux de flexibilité:
 
 * ![Bas][low_img] signifie que l'élement est **recommandé** mais peut être omis dans certaines situations.
-* ![Moyen][medium_img] signifie que l'élement est **hautement recommandé** et peut éventuellement être omis dans certains cas particuliers . Certains élements s'ils sont omis peuvent avoir des mauvais effets secondaires en terme de performance ou de référencement (SEO).
+* ![Moyen][medium_img] signifie que l'élement est **hautement recommandé** et peut éventuellement être omis dans certains cas particuliers. Certains élements, s'ils sont omis, peuvent avoir des mauvais effets secondaires en terme de performance ou de référencement (SEO).
 * ![Haut][high_img] signifie que l'élement **est indispensable**. Vous pouvez provoquer des dysfonctionnements dans votre page, ou avoir des problèmes d'accessibilité, voir de SEO. La priorité des tests doit d'abord s'assurer de ces éléments en premier.
 
 Plusieurs resources possèdent un emoticon pour vous aider à comprendre quel type de contenu il s'agit :
 
 * 📖: documentation ou article
 * 🛠: outil online  / outil de test
-* 📹: media ou contenu vidéo 
+* 📹: media ou contenu vidéo
 
 ---
 
@@ -55,9 +86,9 @@ Plusieurs resources possèdent un emoticon pour vous aider à comprendre quel ty
 <!doctype html>
 ```
 
-> * 📖 [Determiner l'encodage - HTML5 W3C](https://www.w3.org/TR/html5/syntax.html#determining-the-character-encoding)
+> * 📖 [Determiner l'encodage - HTML5 W3C (en)](https://www.w3.org/TR/html5/syntax.html#determining-the-character-encoding)
 
-*Les prochains 3 meta tags (Charset, X-UA Compatible and Viewport) doivent venir en premier dans le head.*
+*Les prochains 2 meta tags (Charset et Viewport) doivent venir en premier dans le head.*
 
 * [ ] **Charset:** ![Haut][high_img] Le charset (UTF-8) est correctement declaré.
 
@@ -66,20 +97,11 @@ Plusieurs resources possèdent un emoticon pour vous aider à comprendre quel ty
 <meta charset="utf-8">
 ```
 
-* [ ] **X-UA-Compatible:** ![Moyen][medium_img] Le meta tag X-UA-Compatible est présent.
-
-```html
-<!-- Instruct Internet Explorer to use its latest rendering engine -->
-<meta http-equiv="x-ua-compatible" content="ie=edge">
-```
-
-> * 📖 [Specifier le mode d'héritage des documents (Internet Explorer)](https://msdn.microsoft.com/en-us/library/jj676915(v=vs.85).aspx)
-
 * [ ] **Viewport:** ![Haut][high_img] Le viewport est correctement déclaré.
 
 ```html
 <!-- Viewport for responsive web design -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 ```
 
 * [ ] **Title:** ![Haut][high_img] Un titre est utilisé sur chaque page (SEO: Google calcule la largeur des pixels de chaque caractères utilisés dans le titre, et coupe entre 472 et 482 pixels. La limite moyenne de caractères se situe autour des 55).
@@ -89,8 +111,8 @@ Plusieurs resources possèdent un emoticon pour vous aider à comprendre quel ty
 <title>Page Title less than 55 characters</title>
 ```
 
-> * 📖 [Title - HTML - MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title)
-> * 🛠 [SERP Snippet Generator](https://www.sistrix.com/serp-snippet-generator/)
+> * 📖 [Title - HTML - MDN](https://developer.mozilla.org/fr/docs/Web/HTML/Element/title)
+> * 🛠 [SERP Snippet Generator (en)](https://www.sistrix.com/serp-snippet-generator/)
 
 * [ ] **Description:** ![Haut][high_img] Une meta description est fournie, elle est unique et ne contient pas plus de 150 caractères.
 
@@ -99,7 +121,7 @@ Plusieurs resources possèdent un emoticon pour vous aider à comprendre quel ty
 <meta name="description" content="Description of the page less than 150 characters">
 ```
 
-> * 📖[Meta Description - HTML - MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#Adding_an_author_and_description)
+> * 📖[Meta Description - HTML - MDN](https://developer.mozilla.org/fr/docs/Apprendre/HTML/Introduction_%C3%A0_HTML/The_head_metadata_in_HTML#Ajouter_le_nom_de_lauteur_et_une_description)
 
 * [ ] **Favicons:** ![Moyen][medium_img] Chaque favicon a été créé et s'affiche correctement. Si vous avez un `favicon.ico`, posez le à la racine de votre site. Normalement vous n'avez pas besoin d'utiliser de balise. Cependant, cela reste une bonne pratique de le relier comme dans l'exemple ci-dessous. Aujourd'hui, **Le PNG est recommandé** en remplacement du format `.ico` (dimensions: 32x32px).
 
@@ -110,20 +132,28 @@ Plusieurs resources possèdent un emoticon pour vous aider à comprendre quel ty
 <link rel="icon" type="image/png" href="https://example.com/favicon.png">
 ```
 
-> * 🛠 [Favicon Generator](https://www.favicon-generator.org/)
-> * 🛠 [RealFaviconGenerator](https://realfavicongenerator.net/)
-> * 📖 [Favicon Cheat Sheet](https://github.com/audreyr/favicon-cheat-sheet)
-> * 📖 [Favicons, Touch Icons, Tile Icons, etc. Which Do You Need? - CSS Tricks](https://css-tricks.com/favicon-quiz/)
-> * 📖 [PNG favicons - caniuse](https://caniuse.com/#feat=link-icon-png)
+> * 🛠 [Favicon Generator (en)](https://www.favicon-generator.org/)
+> * 🛠 [RealFaviconGenerator (en)](https://realfavicongenerator.net/)
+> * 📖 [Favicon Cheat Sheet (en)](https://github.com/audreyr/favicon-cheat-sheet)
+> * 📖 [Favicons, Touch Icons, Tile Icons, etc. Which Do You Need? - CSS Tricks (en)](https://css-tricks.com/favicon-quiz/)
+> * 📖 [PNG favicons - caniuse (en)](https://caniuse.com/#feat=link-icon-png)
 
-* [ ] **Apple Touch Icon:** ![Bas][low_img] Les favicons Apple touch apple-mobile-web-app-capable sont présents. *(Créer vos icones Apple avec au pire des dimensions de 200x200px pour supporter toutes les dimensions dont vous aurez besoin)*
+* [ ] **Apple Web App Meta:** ![Bas][low_img] Les meta-tags spécifiques à Apple sont présents.*
 
 ```html
-<!-- Apple Touch Icon -->
+<!-- Apple Touch Icon (at least 200x200px) -->
 <link rel="apple-touch-icon" href="/custom-icon.png">
+
+<!-- To run web application in full-screen -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<!-- Status Bar Style (see Supported Meta Tags below for available values) -->
+<!-- Has no effect unless you have the previous meta tag -->
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
 ```
 
-> * 📖 [Configurer des Web Applications](https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html)
+> * 📖 [Configurer des Web Applications (en)](https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html)
+> * 📖 [Supported Meta Tags (en)](https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html)
 
 - [ ] **Windows Tiles:**![Bas][low_img] Les tuiles Windows sont présentes et liées.
 
@@ -132,7 +162,7 @@ Plusieurs resources possèdent un emoticon pour vous aider à comprendre quel ty
 <meta name="msapplication-config" content="browserconfig.xml" />
 ```
 
-Le balisage xml minimum requis pour le balisage du fichier browserconfig.xml doit être:
+Le balisage xml minimum requis pour le balisage du fichier `browserconfig.xml` doit être:
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -148,7 +178,7 @@ Le balisage xml minimum requis pour le balisage du fichier browserconfig.xml doi
 </browserconfig>
 ```
 
-> * 📖 [Browser configuration schema reference](https://msdn.microsoft.com/en-us/library/dn320426(v=vs.85).aspx)
+> * 📖 [Browser configuration schema reference (en)](https://msdn.microsoft.com/en-us/library/dn320426(v=vs.85).aspx)
 
 * [ ] **Canonical:** ![Moyen][medium_img] Utiliser `rel="canonical"` pour éviter le contenu dupliqué.
 
@@ -157,26 +187,26 @@ Le balisage xml minimum requis pour le balisage du fichier browserconfig.xml doi
 <link rel="canonical" href="http://example.com/2017/09/a-new-article-to-red.html">
 ```
 
-> * 📖 [Use canonical URLs - Search Console Help - Google Support](https://support.google.com/webmasters/answer/139066?hl=en)
-> * 📖 [5 common mistakes with rel=canonical - Google Webmaster Blog](https://webmasters.googleblog.com/2013/04/5-common-mistakes-with-relcanonical.html)
+> * 📖 [Use canonical URLs - Search Console Help - Google Support (en)](https://support.google.com/webmasters/answer/139066?hl=en)
+> * 📖 [5 common mistakes with rel=canonical - Google Webmaster Blog (en)](https://webmasters.googleblog.com/2013/04/5-common-mistakes-with-relcanonical.html)
 
 ### HTML tags
 
 * [ ] **Language attribute:** ![Haute][high_img] L'attribut `lang` de votre site est spécifié et indique le langage de la page courante.
 
 ```html
-<html lang="en">
+<html lang="fr">
 ```
 
-* [ ] **L'attribut direction :** ![Moyen][medium_img] Le sens de lecture est specifié dans le tag html (Il peut être indiqué dans un autre tag HTML).
+* [ ] **L'attribut direction :** ![Moyen][medium_img] Le sens de lecture est specifié dans le tag html (Il peut être indiqué dans un autre élément HTML).
 
 ```html
 <html dir="rtl">
 ```
 
-> * 📖 [dir - HTML - MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/dir)
+> * 📖 [dir - HTML - MDN](https://developer.mozilla.org/fr/docs/Web/HTML/Attributs_universels/dir)
 
-* [ ] **Alternate language:** ![Low][low_img] Le tag language de votre site est specifié et est en relation avec le language de la page courante.
+* [ ] **Alternate language:** ![Low][low_img] Un lien vers la traduction de la page courante est spécifié.
 
 ```html
 <link rel="alternate" href="https://es.example.com/" hreflang="es">
@@ -184,16 +214,19 @@ Le balisage xml minimum requis pour le balisage du fichier browserconfig.xml doi
 
 * [ ] **Commentaire conditionel:** ![Low][low_img] Les commentaires conditionnels sont présents pour IE si besoin.
 
-> * 📖 [About conditional comments (Internet Explorer) - MSDN - Microsoft](https://msdn.microsoft.com/en-us/library/ms537512(v=vs.85).aspx)
+> * 📖 [About conditional comments (Internet Explorer) - MSDN - Microsoft (en)](https://msdn.microsoft.com/en-us/library/ms537512(v=vs.85).aspx)
 
 * [ ] **Flux RSS:** ![Bas][low_img] Si votre projet est un blog ou possède des articles, un flux RSS est fourni.
 
 * [ ] **Inline critical CSS:** ![Moyen][medium_img] Les CSS des contenus qui doivent être immédiatement visibles pendant le chargement ("au dessus de la ligne de flottaison") sont appelés "CSS critiques". Ils sont inclus avant le CSS principal et entre les balises `<style></style>` dans une seule ligne (en étant minifié).
-> * 🛠 [Critical by Addy Osmani on GitHub](https://github.com/addyosmani/critical) automatise cela
+
+> * 🛠 [Critical by Addy Osmani on GitHub (en)](https://github.com/addyosmani/critical) automatise cela.
 
 * [ ] **Ordre des CSS :** ![Haute][high_img] Tous les fichiers CSS sont chargés avant n'importe quel fichier JavaScript dans la section `<head>`. (Parfois certains fichiers JS sont chargés en asynchrone en haut de page, et font donc exception à la règle).
 
 ### Social meta
+
+Visualisez et générez automatiquement vos meta pour réseaux sociaux avec [Meta Tags](https://metatags.io/)
 
 ***Facebook OG*** et ***Twitter Cards*** sont pour tous les sites, hautement recommandés. Les autres tags de média sociaux peuvent être utiles si vous ciblez une audience particulère et que vous voulez vous assurer un affichage particulier.
 
@@ -216,7 +249,7 @@ Le balisage xml minimum requis pour le balisage du fichier browserconfig.xml doi
 
 > * 📖 [Guide du partage pour les Webmasters](https://developers.facebook.com/docs/sharing/webmasters/)
 > * 📖 [Bonnes pratiques du partage](https://developers.facebook.com/docs/sharing/best-practices/)
-> * 🛠 Tester votre page avec [Facebook OG testing](https://developers.facebook.com/tools/debug/)
+> * 🛠 Tester votre page avec [Facebook OG testing (en)](https://developers.facebook.com/tools/debug/)
 
 * [ ] **Twitter Card:** ![Low][low_img]
 
@@ -230,7 +263,7 @@ Le balisage xml minimum requis pour le balisage du fichier browserconfig.xml doi
 <meta name="twitter:image" content="https://example.com/image.jpg">
 ```
 
-> * 📖 [Débutez avec les cartes — Twitter Developers](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started)
+> * 📖 [Getting started with cards — Twitter Developers (en)](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started)
 > * 🛠 Tester votre page avec [Twitter card validator](https://cards-dev.twitter.com/validator)
 
 **[⬆ Retour en haut](#table-des-matières)**
@@ -243,13 +276,13 @@ Le balisage xml minimum requis pour le balisage du fichier browserconfig.xml doi
 
 * [ ] **HTML5 Semantic Elements:** ![Haut][high_img] Les élements sémantiques HTML5 ont une utilisation spécifique (header, section, footer, main...).
 
-> * 📖 [HTML Reference](http://htmlreference.io/)
+> * 📖 [HTML Reference (en)](http://htmlreference.io/)
 
 * [ ] **Error pages:** ![Haut][high_img] Les pages d'erreurs 404 et 5xx existent. Rappelez vous que les pages d'erreurs 5xx ont besoin de CSS intégrés (pas d'appel externe au serveur courant).
 
 * [ ] **Noopener:** ![Moyen][medium_img] Dans le cas ou vous utilisez des liens externes avec `target="_blank"`, votre lien devrait avoir l'attribut `rel="noopener"` pour prévenir du tab nabbing (piratage par onglet). Si vous devez supporter les anciennes versions de Firefox, utiliser alors `rel="noopener noreferrer"`.
 
-> * 📖 [A propos de rel=noopener](https://mathiasbynens.github.io/rel-noopener/)
+> * 📖 [A propos de rel=noopener (en)](https://mathiasbynens.github.io/rel-noopener/)
 
 * [ ] **Nettoyage de commentaires:** ![Bas][low_img] Le code non nécessaire doit être supprimé avant l'envoi en production.
 
@@ -259,11 +292,11 @@ Le balisage xml minimum requis pour le balisage du fichier browserconfig.xml doi
 
 > * 🛠 [W3C validator](https://validator.w3.org/)
 
-* [ ] **HTML Lint:** ![Haut][high_img] Utiliser ces outils pour vous aider à analyser des problèmes que vous auriez dans votre code  HTML.
+* [ ] **HTML Lint:** ![Haut][high_img] Utiliser ces outils pour vous aider à analyser des problèmes que vous auriez dans votre code HTML.
 
-> * 🛠 [Dirty markup](https://dirtymarkup.com/)
+> * 🛠 [Dirty markup (en)](https://www.10bestdesign.com/dirtymarkup/)
 
-> * 🛠 [Sonar a linting tool for the web](https://sonarwhal.com/)
+> * 🛠 [webhint](https://webhint.io/)
 
 * [ ] **Link checker:** ![Haut][high_img] Vérification qu'il n'y ai pas de liens brisés (pages 404).
 
@@ -271,7 +304,7 @@ Le balisage xml minimum requis pour le balisage du fichier browserconfig.xml doi
 
 * [ ] **Adblockers test:** ![Moyen][medium_img] Votre site doit affiché un contenu correct malgré la présence d'adblocker (Vous pouvez fournir un message pour encourager les gens à les désactiver).
 
-
+> * 📖 [Utiliser AdBlockers en environnement de développement (en)](https://andreicioara.com/use-adblocking-in-your-dev-environment-48db500d9b86)
 
 **[⬆ Retour en haut](#table-des-matières)**
 
@@ -279,15 +312,15 @@ Le balisage xml minimum requis pour le balisage du fichier browserconfig.xml doi
 
 ## Webfonts
 
-> **Notes:** Utiliser les webfonts peut causer des problèmes de textes invisibles avec Flash - envisager d'avoir des polices de secours et / ou d'utiliser des chargeurs webfont pour contrôler le comportement.
-> * 📖 [Google Technical considerations about webfonts](https://developers.google.com/fonts/docs/technical_considerations)
+> **Notes:** Utiliser les webfonts peut causer des problèmes de textes invisibles/non stylisés le temps du chargement de la fonte - envisager d'avoir des polices de secours et / ou d'utiliser des chargeurs webfont pour contrôler le comportement.
+> * 📖 [Google Technical considerations about webfonts (en)](https://developers.google.com/fonts/docs/technical_considerations)
 
 * [ ] **Webfont format:** ![Haut][high_img] WOFF, WOFF2 et TTF sont tous supportés par les navigateurs modernes.
 
 > * 📖 [WOFF - Web Open Font Format - Caniuse](https://caniuse.com/#feat=woff).
 > * 📖 [WOFF 2.0 - Web Open Font Format - Caniuse](https://caniuse.com/#feat=woff2).
 > * 📖 [TTF/OTF - TrueType and OpenType font support](https://caniuse.com/#feat=ttf)
-> * 📖 [Using @font-face - CSS-Tricks](https://css-tricks.com/snippets/css/using-font-face/)
+> * 📖 [Using @font-face - CSS-Tricks (en)](https://css-tricks.com/snippets/css/using-font-face/)
 
 * [ ] **Webfont size:** ![Haut][high_img] La taille des Webfonts ne doit pas excéder 2 MB (toutes les variantes incluses).
 
@@ -301,12 +334,11 @@ Le balisage xml minimum requis pour le balisage du fichier browserconfig.xml doi
 
 ## CSS
 
-> **Notes:** Regardez les [guidelines CSS](https://cssguidelin.es/) et les [Guidelines Sass](https://sass-guidelin.es/) fournis par de nombreux développeurs Front-End. Si vous avez des doutes sur des propriétés CSS, vous pouvez visiter la [Reference CSS](http://cssreference.io/). Il y a aussi ce court [Guide](http://codeguide.co/) pour la cohérence.
+> **Notes:** Regardez les [guidelines CSS (en)](https://cssguidelin.es/) et les [Guidelines Sass (en)](https://sass-guidelin.es/) suivis par de nombreux développeurs Front-End. Si vous avez des doutes sur des propriétés CSS, vous pouvez visiter la [Reference CSS (en)](http://cssreference.io/). Il y a aussi ce court [Guide](http://codeguide.co/) pour la cohérence.
 
 * [ ] **Responsive Web Design:** ![Haut][high_img] Le site utilise un design responsive.
 * [ ] **CSS Print:** ![Moyen][medium_img] Une feuille d'impression CSS est incluse et permet une impression correcte sur chacune des pages.
-* [ ] **Preprocessors:** ![Bas][low_img] L'utilisation d'un preprocessor CSS ([Sass](http://sass-lang.com/) est conseillée).
-
+* [ ] **Preprocessors:** ![Bas][low_img] L'utilisation d'un preprocessor CSS ([Sass](http://sass-lang.com/), [Less](http://lesscss.org/) ou [Stylus](http://stylus-lang.com/)) est conseillée).
 * [ ] **Unique ID:** ![Haut][high_img] Si des IDs sont utilisés, ils sont uniques sur chaque page.
 * [ ] **Reset CSS:** ![Haut][high_img] Un CSS reset (reset, normalize ou reboot) est utilisé et mis à jour. *(Si vous utiliser un  Framework CSS comme Bootstrap ou Foundation, une feuille Normalize est déjà incluse.)*
 
@@ -314,7 +346,7 @@ Le balisage xml minimum requis pour le balisage du fichier browserconfig.xml doi
 > * 📖 [Normalize.css](https://necolas.github.io/normalize.css/)
 > * 📖 [Reboot](https://getbootstrap.com/docs/4.0/content/reboot/)
 
-* [ ] **JS prefix:** ![Bas][low_img] Toutes les classes (ou les id- utilisés dans les fichiers JavaScript) commencent par **js-** et ne sont pas stylés dans les fichiers CSS.
+* [ ] **JS prefix:** ![Bas][low_img] Toutes les classes (ou les IDs) utilisés dans les fichiers JavaScript commencent par **js-** et ne sont pas stylés dans les fichiers CSS.
 
 ```html
 <div id="js-slider" class="my-slider">
@@ -322,8 +354,8 @@ Le balisage xml minimum requis pour le balisage du fichier browserconfig.xml doi
 <div id="id-used-by-cms" class="js-slider my-slider">
 ```
 
-* [ ] **Embedded ou inline CSS:** ![Haut][high_img] Tous les CSS embarqués dans des balises `<style>` ou utilisant le CSS en style: le sont uniquement pour de bonnes raisons (e.g. background-image pour des sliders, ou des CSS critiques).
-* [ ] **Vendor prefixes:** ![Haut][high_img] les préfixes des CSS sont utilisés en prenant soin de la compatibilité des navigateurs.
+* [ ] **Embedded ou inline CSS:** ![Haut][high_img] Tous les CSS embarqués dans des balises `<style>` ou utilisant le CSS en ligne (attribut `style`) le sont uniquement pour de bonnes raisons (background-image pour des sliders, ou CSS critiques).
+* [ ] **Vendor prefixes:** ![Haut][high_img] les préfixes CSS sont utilisés et générés en fonction des navigateurs que vous ciblez.
 
 > * 🛠 [Autoprefixer CSS online](https://autoprefixer.github.io/)
 
@@ -333,24 +365,24 @@ Le balisage xml minimum requis pour le balisage du fichier browserconfig.xml doi
 - [ ] **Minification:** ![Haut][high_img] Les fichiers CSS sont minifiés.
 - [ ] **Non-blocking:** ![Moyen][medium_img] Les fichiers CSS ne doivent pas être bloquants pour que le DOM puisse se charger rapidement.
 
-> * 📖 [loadCSS by filament group](https://github.com/filamentgroup/loadCSS)
-> * 📖 [Example of preload CSS using loadCSS](https://gist.github.com/thedaviddias/c24763b82b9991e53928e66a0bafc9bf)
+> * 📖 [loadCSS by filament group (en)](https://github.com/filamentgroup/loadCSS)
+> * 📖 [Example of preload CSS using loadCSS (en)](https://gist.github.com/thedaviddias/c24763b82b9991e53928e66a0bafc9bf)
 
 - [ ] **CSS non utilisés:** ![Bas][low_img] Supprimer les CSS inutilisés.
 
-> * 🛠 [UnCSS Online](https://uncss-online.com/) 🛠
+> * 🛠 [UnCSS Online](https://uncss-online.com/)
 > * 🛠 [PurifyCSS](https://github.com/purifycss/purifycss)
+> * 🛠 [PurgeCSS](https://github.com/FullHuman/purgecss)
 > * 🛠 [Chrome DevTools Coverage](https://developers.google.com/web/updates/2017/04/devtools-release-notes#coverage)
-
 
 ### CSS testing
 
 * [ ] **Stylelint:** ![Haut][high_img] Tous les fichiers CSS ou SCSS ne doivent pas avoir une seule erreur.
 
-> * 🛠 [stylelint, a CSS linter](https://stylelint.io/)
-> * 📖 [Sass guidelines](https://sass-guidelin.es/)
+> * 🛠 [stylelint, a CSS linter (en)](https://stylelint.io/)
+> * 📖 [Sass guidelines (en)](https://sass-guidelin.es/)
 
-* [ ] **Responsive web design:** ![Haut][high_img] Toutes les pages ont étés testées sur les résolutions suivantes: 320px, 768px, 1024px (peut être plus / en fonction de votre analyse).
+* [ ] **Responsive web design:** ![Haut][high_img] Toutes les pages ont étés testées sur les résolutions suivantes: 320px, 768px, 1024px (peut être plus / d'autres en fonction de vos statistiques de visites).
 
 * [ ] **CSS Validator:** ![Moyen][medium_img] Le CSS a été testé et il n'y a aucune erreur.
 
@@ -366,8 +398,8 @@ Le balisage xml minimum requis pour le balisage du fichier browserconfig.xml doi
 
 * [ ] **Reading direction:** ![Haut][high_img] Les pages ont étés testées dans les 2 sens de lecture si les 2 sont supportés (gauche à droite et droite à gauche).
 
-> * 📖 [Building RTL-Aware Web Apps & Websites: Part 1 - Mozilla Hacks](https://hacks.mozilla.org/2015/09/building-rtl-aware-web-apps-and-websites-part-1/)
-> * 📖 [Building RTL-Aware Web Apps & Websites: Part 2 - Mozilla Hacks](https://hacks.mozilla.org/2015/10/building-rtl-aware-web-apps-websites-part-2/)
+> * 📖 [Building RTL-Aware Web Apps & Websites: Part 1 - Mozilla Hacks (en)](https://hacks.mozilla.org/2015/09/building-rtl-aware-web-apps-and-websites-part-1/)
+> * 📖 [Building RTL-Aware Web Apps & Websites: Part 2 - Mozilla Hacks (en)](https://hacks.mozilla.org/2015/10/building-rtl-aware-web-apps-websites-part-2/)
 
 **[⬆ retour en haut](#table-des-matières)**
 
@@ -375,26 +407,31 @@ Le balisage xml minimum requis pour le balisage du fichier browserconfig.xml doi
 
 ## Images
 
-> **Notes:** Pour une complète compréhension de l'optimisation des images, lisez ce livre gratuit **[Essential Image Optimization](https://images.guide/)** d'Addy Osmani.
+> **Notes:** Pour une complète compréhension de l'optimisation des images, lisez ce livre gratuit **[Essential Image Optimization (en)](https://images.guide/)** d'Addy Osmani.
 
-### Bonnes practiques
+### Bonnes pratiques
 
 * [ ] **Optimisation:** ![Haut][high_img]Toutes les images sont optimisées pour un rendu sur navigateur. Le format WebP peut être utilisé pour des pages critiques (comme la page d'accueil).
 
-> * 🛠 [Imagemin](https://github.com/imagemin/imagemin)
-> * 🛠 Utiliser [ImageOptim](https://imageoptim.com/) pour optimiser gratuitement vos images.
-> * 🛠 Utiliser [Kraken.io](https://kraken.io/web-interface) une alternative incroyable pour des optimisations sur des png et des jpg . Jusqu'à 1 Mb en version gratuite.
+> * 🛠 [Imagemin (en)](https://github.com/imagemin/imagemin)
+> * 🛠 Utiliser [ImageOptim (en)](https://imageoptim.com/) pour optimiser gratuitement vos images.
+> * 🛠 Utiliser [KeyCDN Image Processing (en)](https://www.keycdn.com/support/image-processing) pour optimiser les images en temps réel.
+> * 🛠 Utiliser [Kraken.io (en)](https://kraken.io/web-interface) une alternative incroyable pour des optimisations sur des png et des jpg. Jusqu'à 1 Mb en version gratuite.
+> * 🛠 [TinyPNG (en)](https://tinypng.com/) optimise les PNG, PNG animés ey jpg sans perte. Il existe des intégrations gratuites et payantes.
+> * 🛠 [ZorroSVG (en)](http://quasimondo.com/ZorroSVG/) PNG transparents pour le poids d'un JPG grace à l'utilisation de masking svg.
+> * 🛠 [SVGO (en)](https://github.com/svg/svgo) outils basé sur Node.js pour optimiser les SVG.
+> * 🛠 [SVGOMG](https://jakearchibald.github.io/svgomg/) interface graphique web pour utiliser SVGO directement depuis le web.
 
-* [ ] **Picture/Srcset:** ![Moyen][medium_img] Vous pouvez utiliser des images/srcset pour fournir l'image la plus appropriée à la résolution de l'utilisateur.
+* [ ] **Picture/Srcset:** ![Moyen][medium_img] Vous pouvez utiliser des éléments HTML `picture` / l'attribut `srcset` pour fournir l'image la plus appropriée à la résolution de l'utilisateur.
 
-> * 📖 [Comment constuire des images responsives avec srcset](https://www.sitepoint.com/how-to-build-responsive-images-with-srcset/)
+> * 📖 [Comment constuire des images responsives avec srcset (en)](https://www.sitepoint.com/how-to-build-responsive-images-with-srcset/)
 
-* [ ] **Retina:** ![Bas][low_img] Vous fournissez des layout d'images  2x or 3x, pour l'affichage sur un support retina.
+* [ ] **Retina:** ![Bas][low_img] Vous fournissez des layout d'images 2x or 3x, pour l'affichage sur un support retina.
 * [ ] **Sprite:** ![Moyen][medium_img] Les petites images sont dans un seul fichier sprite (dans le cas d'icones, elles peuvent être dans un sprite d'image SVG).
-* [ ] **Width and Height:** ![Haut][high_img] Ajouter les attributs `width` et `height` sur la balise `<img>` dans le rendu final si la taille est connue (le css de dimensionnement peut alors être omis).
+* [ ] **Width and Height:** ![Haut][high_img] Ajouter les attributs `width` et `height` sur la balise `<img>` si la taille est connue (peut être omis pour le dimensionnement par CSS).
 * [ ] **Text alternatif:** ![Haut][high_img] Toute les balises `<img>` ont un texte alternatif qui décrit l'image visuellement.
 
-> * 📖 [Alt-texts: The Ultimate Guide](https://axesslab.com/alt-texts/)
+> * 📖 [Alt-texts: The Ultimate Guide (en)](https://axesslab.com/alt-texts/)
 
 * [ ] **Lazy loading:** ![Medium][medium_img] Les images sont chargées au fur et à mesure (Un noscript fallback est toujours fourni).
 
@@ -410,25 +447,38 @@ Le balisage xml minimum requis pour le balisage du fichier browserconfig.xml doi
 * [ ] **Concatenation:** ![Haute][high_img] Les fichiers JavaScript sont concatenés.
 * [ ] **Minification:** ![Haute][high_img] Les fichiers JavaScript sont minifiés (vous pouvez ajouiter le suffixe `.min`).
 
-> * 📖 [Minification des Ressources (HTML, CSS, and JavaScript)](https://developers.google.com/speed/docs/insights/MinifyResources)
+> * 📖 [Minification des Ressources (HTML, CSS, and JavaScript) (en)](https://developers.google.com/speed/docs/insights/MinifyResources)
 
 * [ ] **Securité JavaScript:**
 
-> * 📖 [Guidelines for Developing Secure Applications Utilizing JavaScript](https://www.owasp.org/index.php/DOM_based_XSS_Prevention_Cheat_Sheet#Guidelines_for_Developing_Secure_Applications_Utilizing_JavaScript)
+> * 📖 [Guidelines for Developing Secure Applications Utilizing JavaScript (en)](https://www.owasp.org/index.php/DOM_based_XSS_Prevention_Cheat_Sheet#Guidelines_for_Developing_Secure_Applications_Utilizing_JavaScript)
+
+* [ ] **`noscript` tag:** ![Medium][medium_img]  Utiliser l'élément `<noscript>` dans le body HTML dans le cas d'un script non supporté ou si le JS est désactivé dans le navigateur. Cela peut s'avérer utile dans le cas de Single Page Applications basés sur React par exemple, voir ces [exemples](https://webdesign.tutsplus.com/tutorials/quick-tip-dont-forget-the-noscript-element--cms-25498).
+
+```html
+<noscript>
+  Vous devez activer JavaScript pour pouvoir utiliser ce site internet.
+</noscript>
+```
 
 * [ ] **Non-blocking:** ![Moyen][medium_img] Les fichiers JavaScript sont chargés en asynchrone avec `async` ou avec l'utilisation de l'attribut `defer`.
 
-> * 📖 [Remove Render-Blocking JavaScript](https://developers.google.com/speed/docs/insights/BlockingJS)
+> * 📖 [Remove Render-Blocking JavaScript (en)](https://developers.google.com/speed/docs/insights/BlockingJS)
+
+* [ ] **Optimized and updated JS libraries:** ![Medium][medium_img] Toutes les librairies JavaScripts utilisées dans votre projets le sont par nécessité (préférer du Vanilla JS pour des fonctionnalités simples), à jour de leurs dernières versions et ne surchargent pas votre JavaScript de méthodes inutiles.
+
+> * 📖 [You may not need jQuery (en)](http://youmightnotneedjquery.com/)
+> * 📖 [Vanilla JavaScript pour construire des applications web puissantes (en)](https://plainjs.com/)
 
 * [ ] **Modernizr:** ![Bas][low_img] Si vous avez besoin de fonctionnalités spécifiques, vous pouvez utiliser un Modernizr personnalisé pour ajouter les classes au tag `<html>`.
 
 > * 🛠 [Personnaliser votre Modernizr](https://modernizr.com/download?setclasses)
 
-### Tester le JavaScript 
+### Tester le JavaScript
 
 * [ ] **ESLint:** ![Haut][high_img] Pas d'erreurs détéctés par ESLint (basé sur votre configuration ou sur les règles standards).
 
-> * 📖 [ESLint - The pluggable linting utility for JavaScript and JSX](https://eslint.org/)
+> * 📖 [ESLint - The pluggable linting utility for JavaScript and JSX (en)](https://eslint.org/)
 
 **[⬆ retour en haut](#table-des-matières)**
 
@@ -438,21 +488,20 @@ Le balisage xml minimum requis pour le balisage du fichier browserconfig.xml doi
 
 ### Scan et vérification de votre site web
 
-> * [securityheaders.io](https://securityheaders.io/)
-> * [Observatory by Mozilla](https://observatory.mozilla.org/)
-> * [ASafaWeb - Automated Security Analyser for ASP.NET Websites](https://asafaweb.com/)
+> * [securityheaders.io (en)](https://securityheaders.io/)
+> * [Observatory by Mozilla (en)](https://observatory.mozilla.org/)
 
 ### Bonnes pratiques
 
 * [ ] **HTTPS:** ![Moyen][medium_img] HTTPS est utilisé sur chaque page et sur tous vos contenus externes (plugins, images...).
 
-> * 🛠 [Let's Encrypt - Free SSL/TLS Certificates](https://letsencrypt.org/)
-> * 🛠 [Free SSL Server Test](https://www.ssllabs.com/ssltest/index.html)
+> * 🛠 [Let's Encrypt - Free SSL/TLS Certificates](https://letsencrypt.org/fr/)
+> * 🛠 [Free SSL Server Test (en)](https://www.ssllabs.com/ssltest/index.html)
 > * 📖 [Strict Transport Security](http://caniuse.com/#feat=stricttransportsecurity)
 
 * [ ] **HTTP Strict Transport Security (HSTS):** ![Moyen][medium_img] L'entête HTTP est définie à 'Strict-Transport-Security'.
 
-> * 🛠 [Check HSTS preload status and eligibility](https://hstspreload.org/)
+> * 🛠 [Check HSTS preload status and eligibility (en)](https://hstspreload.org/)
 > * 📖 [HTTP Strict Transport Security Cheat Sheet - OWASP](https://www.owasp.org/index.php/HTTP_Strict_Transport_Security_Cheat_Sheet)
 > * 📖 [Transport Layer Protection Cheat Sheet - OWASP](https://www.owasp.org/index.php/Transport_Layer_Protection_Cheat_Sheet)
 
@@ -467,18 +516,19 @@ Le balisage xml minimum requis pour le balisage du fichier browserconfig.xml doi
 
 * [ ] **Content Type Options** ![Moyen][medium_img] Empêcher Google Chrome et Internet Explorer d'essayer de mime-sniff le type de contenu d'une réponse différente de celle déclarée par le serveur.
 
-> * 📖 [X-Content-Type-Options - Scott Helme](https://scotthelme.co.uk/hardening-your-http-response-headers/#x-content-type-options)
+> * 📖 [X-Content-Type-Options - Scott Helme (en)](https://scotthelme.co.uk/hardening-your-http-response-headers/#x-content-type-options)
 
 * [ ] **X-Frame-Options (XFO)** ![Moyen][medium_img] Protéger vos visiteurs contre les attaques par clickjacking.
 
-> * 📖 [X-Frame-Options - Scott Helme](https://scotthelme.co.uk/hardening-your-http-response-headers/#x-frame-options)
-> * 📖 [RFC7034 - HTTP Header Field X-Frame-Options](https://tools.ietf.org/html/rfc7034)
+> * 📖 [X-Frame-Options - Scott Helme (en)](https://scotthelme.co.uk/hardening-your-http-response-headers/#x-frame-options)
+> * 📖 [RFC7034 - HTTP Header Field X-Frame-Options (en)](https://tools.ietf.org/html/rfc7034)
 
-* [ ] **Content Security Policy** ![Moyen][medium_img] Definir comment le contenu est chargé sur votre site et d'ou il est autorisé à être chargé. Cela peut aussi vous permettre de vous protéger des attaques par clickjacking.
+* [ ] **Content Security Policy** ![Moyen][medium_img] Definir comment le contenu est chargé sur votre site et d'où il est autorisé à être chargé. Cela peut aussi vous permettre de vous protéger des attaques par clickjacking.
 
-> * 📖 [Content Security Policy - An Introduction - Scott Helme](https://scotthelme.co.uk/content-security-policy-an-introduction/)
-> * 📖 [CSP Cheat Sheet - Scott Helme](https://scotthelme.co.uk/csp-cheat-sheet/)
-> * 📖 [CSP Cheat Sheet - OWASP](https://www.owasp.org/index.php/Content_Security_Policy_Cheat_Sheet)
+> * 📖 [Content Security Policy - An Introduction - Scott Helme (en)](https://scotthelme.co.uk/content-security-policy-an-introduction/)
+> * 📖 [CSP Cheat Sheet - Scott Helme (en)](https://scotthelme.co.uk/csp-cheat-sheet/)
+> * 📖 [CSP Cheat Sheet - OWASP (en)](https://www.owasp.org/index.php/Content_Security_Policy_Cheat_Sheet)
+> * 📖 [Content Security Policy Reference (en)](https://content-security-policy.com/)
 
 **[⬆ retour en haut](#table-des-matières)**
 
@@ -488,31 +538,34 @@ Le balisage xml minimum requis pour le balisage du fichier browserconfig.xml doi
 
 ### Bonnes pratiques
 
-- [ ] **Weight page:** ![Haut][high_img] Le poids de chaque page est entre 0 et 500 KB.
+- [ ] **Objectifs à atteindre:** ![Medium][medium_img] Vos pages doivents atteindre ces objectifs :
+  - First Meaningful Paint en moins d'1 seconde
+  - Time To Interactive en dessous de 5 secondes pour la configuration "moyenne" (Android a 200€ sur un réseau 3G avec un RTT (round-trip time) de 400ms et 400kbps de bande passante) et en dessous de 2 secondes pour les visites suivantes
+  - Taille totale des fichiers critiques en dessous de 170Kb gzippé
 
-> * 🛠 [Website Page Analysis](https://tools.pingdom.com)
-> * 📖 [Size Limit: Make the Web lighter](https://evilmartians.com/chronicles/size-limit-make-the-web-lighter)
+> * 🛠 [Website Page Analysis (en)](https://tools.pingdom.com)
+> * 🛠 [WebPageTest (en)](https://www.webpagetest.org/)
+> * 📖 [Size Limit: Make the Web lighter (en)](https://evilmartians.com/chronicles/size-limit-make-the-web-lighter)
 
 - [ ] **Minified:** ![Moyen][medium_img] Votre HTML est minifié.
-> * 🛠 [W3C Validator](https://validator.w3.org/)
 
 * [ ] **Lazy loading:** ![Moyen][medium_img] Images, scripts et CSS doivent être chargé en lazy loading pour améliorer le temps de  réponse (Voir les details dans une autre section).
 
-* [ ] **Cookie size:** Si vous utilisez des cookies, assurez vous qu'ils n'excèdent pas 4096 bytes et qu'il n'y en ai pas plus de 20 pour votre nom de domaine.
+* [ ] **Cookie size:** Si vous utilisez des cookies, assurez vous que chaque cookie ne dépasse pas 4096 octets et qu'il n'y en ai pas plus de 20 pour votre nom de domaine.
 
-> * 📖 [Cookie specification: RFC 6265](https://tools.ietf.org/html/rfc6265)
-> * 📖 [Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
-> * 🛠 [Browser Cookie Limits](http://browsercookielimits.squawky.net/)
+> * 📖 [Cookie specification: RFC 6265 (en)](https://tools.ietf.org/html/rfc6265)
+> * 📖 [Cookies](https://developer.mozilla.org/fr/docs/Web/HTTP/Cookies)
+> * 🛠 [Browser Cookie Limits (en)](http://browsercookielimits.squawky.net/)
 
 * [ ] **Composants tiers:** ![Moyen][medium_img] Les éléments tiers comme les iframes ou les composants basés sur des JS externes (comme les boutons de partage) sont remplacés par des composants statiques quand c'est possible, pour limiter les appels aux APIs externes et préservez l'activité de vos visiteurs confidentielle.
 
-> * 🛠 [Simple sharing buttons generator](https://simplesharingbuttons.com/)
+> * 🛠 [Simple sharing buttons generator (en)](https://simplesharingbuttons.com/)
 
 ### Préparer les requêtes à venir
 
 > * 📖 [Expliquation des techniques suivantes](https://css-tricks.com/prefetching-preloading-prebrowsing/)
 
-* [ ] **DNS resolution:** ![Bas][low_img] DNS est un service tiers qui peut résoudre en avance les prochaines requêtes grâce à l'utilisation de `dns-prefetch`.
+* [ ] **DNS resolution:** ![Bas][low_img] Les composants tiers chargés depuis des DNS sont résolus à l'avance pendant les temps morts en utilisant `dns-prefetch`.
 
 ```html
 <link rel="dns-prefetch" href="https://example.com">
@@ -524,7 +577,7 @@ Le balisage xml minimum requis pour le balisage du fichier browserconfig.xml doi
 <link rel="preconnect" href="https://example.com">
 ```
 
-* [ ] **Prefetching:** ![Low][low_img] Resources that will be needed soon (e.g. lazy loaded images) are requested in advance during idle time using `prefetch`.
+* [ ] **Prefetching:** ![Low][low_img] Les ressources qui seront chargées bientôt dans la page (généralement les images en lazy loading) sont requêtées à l'avance durant les temps morts en utilisant `prefetch`.
 
 ```html
 <link rel="prefetch" href="image.png">
@@ -536,16 +589,17 @@ Le balisage xml minimum requis pour le balisage du fichier browserconfig.xml doi
 <link rel="preload" href="app.js">
 ```
 
-> * 📖 [Différences entre prefetch et preload](https://medium.com/reloading/preload-prefetch-and-priorities-in-chrome-776165961bbf)
+> * 📖 [Différences entre prefetch et preload (en)](https://medium.com/reloading/preload-prefetch-and-priorities-in-chrome-776165961bbf)
 
 ### Tester la Performance
 
-* [ ] **Google PageSpeed:** ![Haut][high_img] Toutes vos pages ont étés testées (pas seulement la page d'accueil) et ont un score au pire de 90/100.
+* [ ] **Google PageSpeed:** ![Haut][high_img] Toutes vos pages ont étés testées (pas seulement la page d'accueil) et ont un score au moins de 90/100.
 
-> * 🛠 [Google PageSpeed](https://developers.google.com/speed/pagespeed/insights/)
-> * 🛠 [Tester votre vitesse mobile avec Google](https://testmysite.withgoogle.com)
-> * 🛠 [WebPagetest - Website Performance and Optimization Test](https://www.webpagetest.org/)
-> * 🛠 [GTmetrix - Website speed and performance optimization](https://gtmetrix.com/)
+> * 🛠 [Google PageSpeed (en)](https://developers.google.com/speed/pagespeed/insights/)
+> * 🛠 [Tester votre vitesse mobile avec Google](https://www.thinkwithgoogle.com/intl/fr-fr/feature/testmysite/)
+> * 🛠 [WebPagetest - Website Performance and Optimization Test (en)](https://www.webpagetest.org/)
+> * 🛠 [GTmetrix - Website speed and performance optimization (en)](https://gtmetrix.com/)
+> * 🛠 [Speedrank - Improve the performance of your website (en)](https://speedrank.app/)
 
 **[⬆ retour en haut](#table-des-matières)**
 
@@ -553,13 +607,13 @@ Le balisage xml minimum requis pour le balisage du fichier browserconfig.xml doi
 
 ## Accessibilité
 
-> **Notes:** Vous pouvez regader la playlist [A11ycasts with Rob Dodson](https://www.youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g) 📹
+> **Notes:** Vous pouvez regader la playlist [A11ycasts with Rob Dodson (en)](https://www.youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g) 📹
 
 ### Bonnes pratiques
 
 - [ ] **Progressive enhancement:** ![Moyen][medium_img] Les fonctionnalités importantes comme la navigation et la recherche doivent pouvoir fonctionner avec le JavaScript désactivé.
 
-> * 📖 [Activer / désactiver le JavaScript dans l'outil Chrome Developer](https://www.youtube.com/watch?v=kBmvq2cE0D8)
+> * 📖 [Activer / désactiver le JavaScript dans l'outil Chrome Developer (en)](https://www.youtube.com/watch?v=kBmvq2cE0D8)
 
 - [ ] **Contraste des couleurs:** ![Moyen][medium_img] Le contraste des couleurs doit être au pire WCAG AA (AAA pour le mobile).
 
@@ -570,16 +624,7 @@ Le balisage xml minimum requis pour le balisage du fichier browserconfig.xml doi
 * [ ] **H1:** ![Haut][high_img] Toutes les pages ont un H1 qui n'est pas le titre du site.
 * [ ] **Headings:** ![Haut][high_img] Les balises Hn doivent être correctement utilisées et dans le bon ordre (H1 à H6).
 
-> * 📹 [Why headings and landmarks are so important -- A11ycasts #18](https://www.youtube.com/watch?v=vAAzdi1xuUY&index=9&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g)
-
-#### Repères
-
-- [ ] **Role banner:** ![Haut][high_img] `<header>` a le `role="banner"`.
-- [ ] **Role navigation:** ![Haut][high_img] `<nav>` a le `role="navigation"`.
-- [ ] **Role main:** ![Haut][high_img] `<main>` a le `role="main"`.
-
-> * 📖 [Using ARIA landmarks to identify regions of a page](https://www.w3.org/WAI/GL/wiki/Using_ARIA_landmarks_to_identify_regions_of_a_page)
-> * 📖 [ARIA roles categorization](https://www.w3.org/TR/wai-aria/roles#roles_categorization)
+> * 📹 [Why headings and landmarks are so important -- A11ycasts #18 (en)](https://www.youtube.com/watch?v=vAAzdi1xuUY&index=9&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g)
 
 ### Sémantique
 
@@ -591,19 +636,19 @@ Le balisage xml minimum requis pour le balisage du fichier browserconfig.xml doi
 
 * [ ] **Label:** ![Haut][high_img] Un label est associé avec chaque élement de formulaire. Dans le cas ou un label ne peut être affiché, utiliser `aria-label` à la place.
 
-> * 📖 [Utiliser l'attribut aria-label - MDN](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-label_attribute)
+> * 📖 [Utiliser l'attribut aria-label - MDN](https://developer.mozilla.org/fr/docs/Accessibilit%C3%A9/ARIA/Techniques_ARIA/Utiliser_l_attribut_aria-label)
 
 ### Tester l'accessibilité
 
-* [ ] **Test des standards d'accessibilité:** ![High][high_img] Utiliser l'outil WAVE tool pour vous assurer de respecter les standards d'accessibilité.
+* [ ] **Test des standards d'accessibilité:** ![High][high_img] Utiliser l'outil WAVE pour vous assurer de respecter les standards d'accessibilité.
 
-> * 🛠 [Wave testing](http://wave.webaim.org/)
+> * 🛠 [Wave testing (en)](http://wave.webaim.org/)
 
 * [ ] **Navigation par clavier:** ![Haut][high_img] Tester votre site en utilisant uniquement votre clavier dans un ordre prévisible. Tous les élements doivent être accessibles et utilisables.
 * [ ] **Screen-reader:** ![Medium][medium_img] Toutes les pages ont étés testées dans un outil de lecture d'écran (VoiceOver, ChromeVox, NVDA or Lynx).
 * [ ] **Focus style:** ![High][high_img] Si le focus est désactivé, il est remplacé par un état visible en CSS.
 
-> * 📹 [Managing Focus - A11ycasts #22](https://www.youtube.com/watch?v=srLRSQg6Jgg&index=5&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g)
+> * 📹 [Managing Focus - A11ycasts #22 (en)](https://www.youtube.com/watch?v=srLRSQg6Jgg&index=5&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g)
 
 **[⬆ retour en haut](#table-des-matières)**
 
@@ -612,22 +657,47 @@ Le balisage xml minimum requis pour le balisage du fichier browserconfig.xml doi
 ## SEO
 
 * [ ] **Google Analytics:** ![Haut][high_img] Google Analytics est installé et correctement configuré.
+
+> * 🛠 [Google Analytics](https://analytics.google.com/analytics/web/)
+> * 🛠 [GA Checker (and others) (en)](http://www.gachecker.com/)
+
 * [ ] **Headings logic:** ![Moyen][medium_img] Le texte d'entête aide à comprendre le contenu de la page courante.
+
+> * 🛠 [Tota11y, tab Headings (en)](http://khan.github.io/tota11y/#Try-it)
+
 * [ ] **sitemap.xml:** ![Haut][high_img] Un sitemap.xml existe et a été envoyé à Google Search Console (historiquement Google Webmaster Tools).
+
+> * 🛠 [Sitemap generator (en)](https://websiteseochecker.com/html-sitemap-generator/)
+
 * [ ] **robots.txt:** ![Haut][high_img] Le robots.txt ne bloque pas l'indexation des pages.
 
+> * 📖 [The robots.txt file (en)](https://varvy.com/robottxt.html)
 > * 🛠 Tester votre robots.txt avec [Google Robots Testing Tool](https://www.google.com/webmasters/tools/robots-testing-tool)
 
-* [ ] **Structured Data:** ![Haut][high_img] Les pages utilisant une structure de données ont étés testés et n'ont pas d'erreurs. Les données structurées aide les crawlers à comprendre le contenu de votre page.
+* [ ] **Structured Data:** ![Haut][high_img] Les pages utilisant des données structurées ont étés testés et n'ont pas d'erreurs. Les données structurées aident les crawlers à comprendre le contenu de votre page.
 
 > * 📖 [Introduction aux données structurées - Search - Google Developers](https://developers.google.com/search/docs/guides/intro-structured-data)
+> * 📖 [RDFa - Linked Data in HTML (en)](https://rdfa.info/)
+> * 📖 [JSON-LD (en)](https://json-ld.org/)
+> * 📖 [Microdata (en)](https://www.w3.org/TR/microdata/)
 > * 🛠 Tester votre page avec [Structured Data Testing Tool](https://developers.google.com/structured-data/testing-tool/)
 > * 🛠 Liste complete du vocabulaire utilisé dans les données structurées. [Schema.org Full Heirarchy](http://schema.org/docs/full.html)
 
-* [ ] **Sitemap HTML:** ![Moyen][medium_img] Un sitemap HTML est fourni et accessible via un lien dans le pied de pagede votre site.
+* [ ] **Sitemap HTML:** ![Moyen][medium_img] Un sitemap HTML est fourni et accessible via un lien dans le pied de page de votre site.
 
-> * 📖 [Sitemap guidelines - Google Support](https://support.google.com/webmasters/answer/183668?hl=en)
-> * 🛠 [Sitemap generator](https://websiteseochecker.com/html-sitemap-generator/)
+> * 📖 [Sitemap guidelines - Google Support](https://support.google.com/webmasters/answer/183668?hl=fr)
+
+* [ ] **Pagination link tags:** ![Medium][medium_img] Ajoutez `rel="prev"` et `rel="next"` pour indiquer le contenu paginé.
+
+> * 🛠 [Pagination (rel="prev/next") Testing Tool (en)](https://technicalseo.com/seo-tools/rel-prev-next/)
+
+> * 📖 [Pagination guidelines - Google Support](https://support.google.com/webmasters/answer/1663744?hl=en)
+
+```html
+<!-- Example: Pagination link tags for page 2 of a paginated list -->
+<link rel="prev" href="https://example.com/?page=1">
+<link rel="next" href="https://example.com/?page=3">
+```
 
 **[⬆ retour en haut](#table-des-matières)**
 
@@ -644,10 +714,14 @@ La Checklist Front-End est aussi disponible dans d'autres langues. Merci aux tra
 * 🇧🇷 Portuguese: [jcezarms/Front-End-Checklist](https://github.com/jcezarms/Front-End-Checklist)
 * 🇻🇳 Vietnamese: [euclid1990/Front-End-Checklist](https://github.com/euclid1990/Front-End-Checklist)
 * 🇹🇼 Traditional Chinese: [EngineLin/Front-End-Checklist](https://github.com/EngineLin/Front-End-Checklist)
-* FR French: [ynizon/Front-End-Checklist](https://github.com/ynizon/Front-End-Checklist)
+* 🇫🇷 French: [ynizon/Front-End-Checklist](https://github.com/ynizon/Front-End-Checklist)
+* 🇷🇺 Russian: [ungear/Front-End-Checklist](https://github.com/ungear/Front-End-Checklist)
+* 🇹🇷 Turkish: [eraycetinay/Front-End-Checklist](https://github.com/eraycetinay/Front-End-Checklist)
+* 🇩🇪 German: [xfuture603/Front-End-Checklist](https://github.com/xFuture603/Front-End-Checklist)
+
 ---
 
-## Le badge Front-End Checklist 
+## Le badge Front-End Checklist
 
 Si vous voulez montrer que vous suivez les règles de la  Checklist Front-End, posez ce badge sur votre fichier README!
 
@@ -665,33 +739,49 @@ Si vous voulez montrer que vous suivez les règles de la  Checklist Front-End, p
 
 **Ouvrez une demande de correction ou de suggestion pour faire une modification ou un ajout.**
 
-### Guide
-
-Le repository **Front-End Checklist** consiste en 2 branches:
-
-#### 1. `maitre`
-
-La branche consiste dans ce fichier `README.md` créé depuis le site [Front-End Checklist](http://frontendchecklist.com/) .
-
-#### 2. `developpeurs`
-
-Cette branche sera utilisé pour faire des changements significatifs à la structure si besoin. Il est préférable d'utiliser la branche maitre pour corriger des petites erreurs ou pour ajouter un nouvel élément.
-
 ### Contributeurs
+
+Voici la liste des contributeurs sur le repo officiel Anglais.
 
 [contributeurs](https://github.com/thedaviddias/frontendchecklist/graphs/contributors).
 
 ## Support
 
-Si vous avez des questions ou des suggestions, n'hesitez pas à m'interpeller sur Gitter ou Twitter:
+Si vous avez des questions ou des suggestions, n'hesitez pas à interpeller l'auteur original (en Anglais) sur Gitter ou Twitter:
 
 * [Chat sur Gitter](https://gitter.im/Front-End-Checklist/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
 * [Facebook](https://www.facebook.com/frontendchecklist/)
 * [Twitter](https://twitter.com/thedaviddias)
 
-## Auteurs
+## Auteur original
 
 **[David Dias](https://github.com/thedaviddias/Front-End-Checklist)**
+
+## Contributeurs
+
+Ce projet existe grâce à toutes les personnes qui y contribuent. [[Contribuer]](.github/CONTRIBUTING.md).
+<a href="https://github.com/thedaviddias/Front-End-Checklist/graphs/contributors"><img src="https://opencollective.com/front-end-checklist/contributors.svg?width=890" /></a>
+
+## Backers
+
+Merci à tous les backers! 🙏 [[Devenir un backer](https://opencollective.com/front-end-checklist#backer)]
+
+<a href="https://opencollective.com/front-end-checklist#backers" target="_blank"><img src="https://opencollective.com/front-end-checklist/backers.svg?width=890"></a>
+
+## Sponsors
+
+Supportez ce projet en devenant un sponsor. Votre logo sera affiché ici avec un lien vers votre site web. [[Devenir un sponsor](https://opencollective.com/front-end-checklist#sponsor)]
+
+<a href="https://opencollective.com/front-end-checklist/sponsor/0/website" target="_blank"><img src="https://opencollective.com/front-end-checklist/sponsor/0/avatar.svg"></a>
+<a href="https://opencollective.com/front-end-checklist/sponsor/1/website" target="_blank"><img src="https://opencollective.com/front-end-checklist/sponsor/1/avatar.svg"></a>
+<a href="https://opencollective.com/front-end-checklist/sponsor/2/website" target="_blank"><img src="https://opencollective.com/front-end-checklist/sponsor/2/avatar.svg"></a>
+<a href="https://opencollective.com/front-end-checklist/sponsor/3/website" target="_blank"><img src="https://opencollective.com/front-end-checklist/sponsor/3/avatar.svg"></a>
+<a href="https://opencollective.com/front-end-checklist/sponsor/4/website" target="_blank"><img src="https://opencollective.com/front-end-checklist/sponsor/4/avatar.svg"></a>
+<a href="https://opencollective.com/front-end-checklist/sponsor/5/website" target="_blank"><img src="https://opencollective.com/front-end-checklist/sponsor/5/avatar.svg"></a>
+<a href="https://opencollective.com/front-end-checklist/sponsor/6/website" target="_blank"><img src="https://opencollective.com/front-end-checklist/sponsor/6/avatar.svg"></a>
+<a href="https://opencollective.com/front-end-checklist/sponsor/7/website" target="_blank"><img src="https://opencollective.com/front-end-checklist/sponsor/7/avatar.svg"></a>
+<a href="https://opencollective.com/front-end-checklist/sponsor/8/website" target="_blank"><img src="https://opencollective.com/front-end-checklist/sponsor/8/avatar.svg"></a>
+<a href="https://opencollective.com/front-end-checklist/sponsor/9/website" target="_blank"><img src="https://opencollective.com/front-end-checklist/sponsor/9/avatar.svg"></a>
 
 ## License
 
