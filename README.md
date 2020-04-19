@@ -212,6 +212,14 @@ Le balisage xml minimum requis pour le balisage du fichier `browserconfig.xml` d
 <link rel="alternate" href="https://es.example.com/" hreflang="es">
 ```
 
+* [ ] **x-default:** ![Low][low_img] Balise de langage pour les pages d'accueil internationnalisées.
+
+```html
+<link rel="alternate" href="https://example.com/" hreflang="x-default" />
+```
+
+> * 📖 [x-default - Google (en)](https://webmasters.googleblog.com/2013/04/x-default-hreflang-for-international-pages.html)
+
 * [ ] **Commentaire conditionel:** ![Low][low_img] Les commentaires conditionnels sont présents pour IE si besoin.
 
 > * 📖 [About conditional comments (Internet Explorer) - MSDN - Microsoft (en)](https://msdn.microsoft.com/en-us/library/ms537512(v=vs.85).aspx)
@@ -322,7 +330,7 @@ Visualisez et générez automatiquement vos meta pour réseaux sociaux avec [Met
 > * 📖 [TTF/OTF - TrueType and OpenType font support](https://caniuse.com/#feat=ttf)
 > * 📖 [Using @font-face - CSS-Tricks (en)](https://css-tricks.com/snippets/css/using-font-face/)
 
-* [ ] **Webfont size:** ![Haut][high_img] La taille des Webfonts ne doit pas excéder 2 MB (toutes les variantes incluses).
+* [ ] **Webfont size:** ![Haut][high_img] La taille des Webfonts ne doit pas excéder 100 Ko gzipé (toutes les variantes incluses).
 
 * [ ] **Webfont loader:** ![Bas][low_img] Controler le comportement du chargement avec un loader de webfont.
 
@@ -502,17 +510,17 @@ Visualisez et générez automatiquement vos meta pour réseaux sociaux avec [Met
 * [ ] **HTTP Strict Transport Security (HSTS):** ![Moyen][medium_img] L'entête HTTP est définie à 'Strict-Transport-Security'.
 
 > * 🛠 [Check HSTS preload status and eligibility (en)](https://hstspreload.org/)
-> * 📖 [HTTP Strict Transport Security Cheat Sheet - OWASP](https://www.owasp.org/index.php/HTTP_Strict_Transport_Security_Cheat_Sheet)
-> * 📖 [Transport Layer Protection Cheat Sheet - OWASP](https://www.owasp.org/index.php/Transport_Layer_Protection_Cheat_Sheet)
+> * 📖 [HTTP Strict Transport Security Cheat Sheet - OWASP (en)](https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html)
+> * 📖 [Transport Layer Protection Cheat Sheet - OWASP (en)](https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Protection_Cheat_Sheet.html)
 
 * [ ] **Cross Site Request Forgery (CSRF):** ![High][high_img] Vous êtes sure que vos requêtes faites coté serveur sont légitimes et proviennent de votre site / app pour éviter les attaques CSRF.
 
-> * 📖 [Cross-Site Request Forgery (CSRF) Prevention Cheat Sheet  - OWASP](https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)_Prevention_Cheat_Sheet)
+> * 📖 [Cross-Site Request Forgery (CSRF) Prevention Cheat Sheet  - OWASP (en)](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html)
 
 * [ ] **Cross Site Scripting (XSS):** ![High][high_img] Votre page ou site est dégagé des problèmes XSS possibles.
 
-> * 📖 [XSS (Cross Site Scripting) Prevention Cheat Sheet  - OWASP](https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet)
-> * 📖 [DOM based XSS Prevention Cheat Sheet  - OWASP](https://www.owasp.org/index.php/DOM_based_XSS_Prevention_Cheat_Sheet)
+> * 📖 [XSS (Cross Site Scripting) Prevention Cheat Sheet  - OWASP (en)](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)
+> * 📖 [DOM based XSS Prevention Cheat Sheet  - OWASP (en)](https://cheatsheetseries.owasp.org/cheatsheets/DOM_based_XSS_Prevention_Cheat_Sheet.html)
 
 * [ ] **Content Type Options** ![Moyen][medium_img] Empêcher Google Chrome et Internet Explorer d'essayer de mime-sniff le type de contenu d'une réponse différente de celle déclarée par le serveur.
 
@@ -527,7 +535,7 @@ Visualisez et générez automatiquement vos meta pour réseaux sociaux avec [Met
 
 > * 📖 [Content Security Policy - An Introduction - Scott Helme (en)](https://scotthelme.co.uk/content-security-policy-an-introduction/)
 > * 📖 [CSP Cheat Sheet - Scott Helme (en)](https://scotthelme.co.uk/csp-cheat-sheet/)
-> * 📖 [CSP Cheat Sheet - OWASP (en)](https://www.owasp.org/index.php/Content_Security_Policy_Cheat_Sheet)
+> * 📖 [CSP Cheat Sheet - OWASP](https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html)
 > * 📖 [Content Security Policy Reference (en)](https://content-security-policy.com/)
 
 **[⬆ retour en haut](#table-des-matières)**
